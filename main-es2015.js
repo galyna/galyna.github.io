@@ -407,22 +407,22 @@ let AppComponent = class AppComponent {
             },
             {
                 title: 'Спостереження',
-                icon: 'person-outline',
+                icon: { icon: 'eye-outline', pack: 'eva' },
                 link: [],
             },
             {
                 title: 'Статистика',
-                icon: 'lock-outline',
+                icon: { icon: 'bar-chart-outline', pack: 'eva' },
                 link: [],
             },
             {
                 title: 'Звіт',
-                icon: { icon: 'checkmark-outline', pack: 'eva' },
+                icon: { icon: 'file-text-outline', pack: 'eva' },
                 link: [],
             },
             {
                 title: 'Вихід',
-                icon: 'unlock-outline',
+                icon: 'log-out-outline',
                 link: [],
             },
         ];

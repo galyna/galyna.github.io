@@ -852,22 +852,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         icon: 'menu'
       }, {
         title: 'Спостереження',
-        icon: 'person-outline',
+        icon: {
+          icon: 'eye-outline',
+          pack: 'eva'
+        },
         link: []
       }, {
         title: 'Статистика',
-        icon: 'lock-outline',
+        icon: {
+          icon: 'bar-chart-outline',
+          pack: 'eva'
+        },
         link: []
       }, {
         title: 'Звіт',
         icon: {
-          icon: 'checkmark-outline',
+          icon: 'file-text-outline',
           pack: 'eva'
         },
         link: []
       }, {
         title: 'Вихід',
-        icon: 'unlock-outline',
+        icon: 'log-out-outline',
         link: []
       }];
       this.menuService.onItemClick().subscribe(function (event) {
