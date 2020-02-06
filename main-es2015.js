@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nb-layout>\n  <nb-layout-column>\n    <router-outlet>\n    </router-outlet>\n  </nb-layout-column>\n  <nb-sidebar tag=\"left\" state=\"compacted\">\n    <nb-menu [items]=\"items\">\n    </nb-menu>\n  </nb-sidebar>\n</nb-layout>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nb-layout>\n  <nb-layout-column class=\"farseer-padding16\">\n    <router-outlet>\n    </router-outlet>\n  </nb-layout-column>\n  <nb-sidebar tag=\"left\" state=\"compacted\">\n    <nb-menu [items]=\"items\">\n    </nb-menu>\n  </nb-sidebar>\n</nb-layout>\n");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"card-row\">\n  <div class=\"card-col\">\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 1</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc1\" width=\"600px\" height=\"269px\" frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 3</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <div class=\"video\">\n            <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc3\" width=\"600px\" height=\"269px\" frameborder=\"0\"\n                    webkitallowfullscreen mozallowfullscreen\n                    allowfullscreen></iframe>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"card-col\">\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 2</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc2\" width=\"600px\" height=\"269px\" frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </nb-card-body>\n    </nb-card>\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 4</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <div class=\"video\">\n            <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc4\" width=\"600px\" height=\"269px\" frameborder=\"0\"\n                    webkitallowfullscreen mozallowfullscreen\n                    allowfullscreen></iframe>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n\n\n\n\n\n\n\n\n\n");
 
 /***/ }),
 
@@ -376,7 +376,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("nb-layout-column.farseer-padding16 {\n  padding: 16px !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFDO0VBQW9DLHdCQUFBO0FDRXJDIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIG5iLWxheW91dC1jb2x1bW4uZmFyc2Vlci1wYWRkaW5nMTZ7IHBhZGRpbmc6IDE2cHghaW1wb3J0YW50O31cbiIsIm5iLWxheW91dC1jb2x1bW4uZmFyc2Vlci1wYWRkaW5nMTYge1xuICBwYWRkaW5nOiAxNnB4ICFpbXBvcnRhbnQ7XG59Il19 */");
 
 /***/ }),
 
@@ -522,7 +522,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _nebular_theme__WEBPACK_IMPORTED_MODULE_16__["NbIconModule"],
             _nebular_theme__WEBPACK_IMPORTED_MODULE_16__["NbButtonModule"],
             _nebular_theme__WEBPACK_IMPORTED_MODULE_16__["NbCardModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_16__["NbMenuModule"].forRoot()
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_16__["NbMenuModule"].forRoot(),
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_16__["NbActionsModule"]
         ],
         providers: [
             _services_authentication_service__WEBPACK_IMPORTED_MODULE_12__["AuthenticationService"],
@@ -694,7 +695,7 @@ DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("nb-layout {\n  width: 100%;\n  height: 100%;\n}\n\nnb-layout-column:first-child {\n  -webkit-box-flex: 5 !important;\n          flex: 5 !important;\n  background: #e3e6f9;\n}\n\nnb-layout-column:last-child {\n  -webkit-box-flex: 1 !important;\n          flex: 1 !important;\n  background: #4083f7;\n}\n\n.nb-theme-default nb-layout .layout {\n  min-height: 100vh;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wZW5lbnRzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0FDQ0Y7O0FEQ0E7RUFDRSw4QkFBQTtVQUFBLGtCQUFBO0VBQ0EsbUJBQUE7QUNFRjs7QURBQTtFQUNFLDhCQUFBO1VBQUEsa0JBQUE7RUFDQSxtQkFBQTtBQ0dGOztBREFBO0VBQ0UsaUJBQUE7QUNHRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBlbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsibmItbGF5b3V0e1xuICB3aWR0aDoxMDAlO1xuICBoZWlnaHQ6MTAwJTtcbn1cbm5iLWxheW91dC1jb2x1bW46Zmlyc3QtY2hpbGQge1xuICBmbGV4OiA1ICFpbXBvcnRhbnQ7XG4gIGJhY2tncm91bmQ6ICNlM2U2Zjk7XG59XG5uYi1sYXlvdXQtY29sdW1uOmxhc3QtY2hpbGQge1xuICBmbGV4OiAxICFpbXBvcnRhbnQ7XG4gIGJhY2tncm91bmQ6ICM0MDgzZjc7XG59XG5cbi5uYi10aGVtZS1kZWZhdWx0IG5iLWxheW91dCAubGF5b3V0IHtcbiAgbWluLWhlaWdodDogMTAwdmg7XG59XG4iLCJuYi1sYXlvdXQge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG5uYi1sYXlvdXQtY29sdW1uOmZpcnN0LWNoaWxkIHtcbiAgZmxleDogNSAhaW1wb3J0YW50O1xuICBiYWNrZ3JvdW5kOiAjZTNlNmY5O1xufVxuXG5uYi1sYXlvdXQtY29sdW1uOmxhc3QtY2hpbGQge1xuICBmbGV4OiAxICFpbXBvcnRhbnQ7XG4gIGJhY2tncm91bmQ6ICM0MDgzZjc7XG59XG5cbi5uYi10aGVtZS1kZWZhdWx0IG5iLWxheW91dCAubGF5b3V0IHtcbiAgbWluLWhlaWdodDogMTAwdmg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (":host {\n  display: block;\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n\n.card-row {\n  display: -webkit-box;\n  display: flex;\n  margin: 0 -8px;\n}\n\n.card-col {\n  -webkit-box-flex: 1;\n          flex: 1 0 calc(50% - 1rem);\n  margin: 0 8px;\n}\n\n.farseer-card {\n  margin-bottom: 8px;\n}\n\n.farseer-card-header {\n  height: 40px;\n  padding: 8px 16px;\n}\n\n.farseer-card-body {\n  margin: 0 auto;\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wZW5lbnRzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSxvQkFBQTtFQUFBLGFBQUE7RUFDQSxjQUFBO0FDQ0Y7O0FERUE7RUFDRSxtQkFBQTtVQUFBLDBCQUFBO0VBQ0EsYUFBQTtBQ0NGOztBREVBO0VBQ0Usa0JBQUE7QUNDRjs7QURFQTtFQUNFLFlBQUE7RUFDQSxpQkFBQTtBQ0NGOztBREVBO0VBQ0UsY0FBQTtFQUNBLFlBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBlbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICBkaXNwbGF5OiBibG9jaztcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xufVxuXG4uY2FyZC1yb3cge1xuICBkaXNwbGF5OiBmbGV4O1xuICBtYXJnaW46IDAgLThweDtcbn1cblxuLmNhcmQtY29sIHtcbiAgZmxleDogMSAwIGNhbGMoNTAlIC0gMXJlbSk7XG4gIG1hcmdpbjogMCA4cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQge1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtaGVhZGVyIHtcbiAgaGVpZ2h0OiA0MHB4O1xuICBwYWRkaW5nOiA4cHggMTZweDtcbn1cblxuLmZhcnNlZXItY2FyZC1ib2R5IHtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIHBhZGRpbmc6IDhweDtcbn1cbiIsIjpob3N0IHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgb3ZlcmZsb3cteTogYXV0bztcbn1cblxuLmNhcmQtcm93IHtcbiAgZGlzcGxheTogZmxleDtcbiAgbWFyZ2luOiAwIC04cHg7XG59XG5cbi5jYXJkLWNvbCB7XG4gIGZsZXg6IDEgMCBjYWxjKDUwJSAtIDFyZW0pO1xuICBtYXJnaW46IDAgOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWhlYWRlciB7XG4gIGhlaWdodDogNDBweDtcbiAgcGFkZGluZzogOHB4IDE2cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwYWRkaW5nOiA4cHg7XG59Il19 */");
 
 /***/ }),
 
@@ -710,26 +711,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/fesm2015/index.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 
 
 
 let HomeComponent = class HomeComponent {
-    constructor(sidebarService) {
-        this.sidebarService = sidebarService;
+    constructor(sanitizer) {
+        this.sanitizer = sanitizer;
     }
     ngOnInit() {
+        this.safeSrc1 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/eKFTSSKCzWA");
+        this.safeSrc2 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/74b3Zb18UDM");
+        this.safeSrc3 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/5lCRsLjMeso");
+        this.safeSrc4 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/lM02vNMRRB0");
     }
-    toggle() {
-        this.sidebarService.toggle(false, 'left');
+    toggleVideo1() {
+        this.videoplayer1.nativeElement.play();
     }
-    toggleCompact() {
-        this.sidebarService.toggle(true, 'right');
+    toggleVideo2() {
+        this.videoplayer2.nativeElement.play();
+    }
+    toggleVideo3() {
+        this.videoplayer4.nativeElement.play();
+    }
+    toggleVideo4() {
+        this.videoplayer4.nativeElement.play();
     }
 };
 HomeComponent.ctorParameters = () => [
-    { type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbSidebarService"] }
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] }
 ];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer1", { static: false })
+], HomeComponent.prototype, "videoplayer1", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer2", { static: false })
+], HomeComponent.prototype, "videoplayer2", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer3", { static: false })
+], HomeComponent.prototype, "videoplayer3", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer4", { static: false })
+], HomeComponent.prototype, "videoplayer4", void 0);
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-home',
