@@ -758,7 +758,7 @@ let HomeComponent = class HomeComponent {
             .subscribe((state) => {
             if (state.matches) {
                 this.isMobileTablet = false;
-                this.widthVideo = "580px";
+                this.widthVideo = "572px";
                 this.heightVideo = "266px";
             }
             else {

@@ -1405,7 +1405,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.breakpointObserver.observe(['(min-width: 1280px)']).subscribe(function (state) {
             if (state.matches) {
               _this4.isMobileTablet = false;
-              _this4.widthVideo = "580px";
+              _this4.widthVideo = "572px";
               _this4.heightVideo = "266px";
             } else {
               _this4.widthVideo = "400px";
