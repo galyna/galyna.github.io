@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n<nb-card size=\"large\" class=\"farseer-card\">\n  <nb-card-header class=\"farseer-card-header\">{{name}}</nb-card-header>\n  <nb-card-body class=\"farseer-card-body\">\n    <div class=\"video\">\n      <img  [src]=\"safeSrc\" >\n    </div>\n  </nb-card-body>\n</nb-card>\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<nb-card size=\"small\" class=\"farseer-card \">\n  <nb-card-header class=\"farseer-card-header\">{{name}}</nb-card-header>\n  <nb-card-body class=\"farseer-card-body\">\n    <div class=\"video\">\n      <img [src]=\"safeSrc\" class=\"img-box\" [ngStyle]=\"{'max-width.px': widthVideo,'max-height.px': heightVideo}\"/>\n    </div>\n  </nb-card-body>\n</nb-card>\n\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" >\n<div class=\"row\" *ngFor=\"let camera of cameras | async \">\n  <app-camera class=\"col-ld-6\" [id]=\"camera.id\" [name]=\"camera.name\"></app-camera>\n</div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" >\n<div class=\"row\" >\n  <div class=\"col-lg-6\" *ngFor=\"let camera of cameras | async \">\n    <app-camera  [id]=\"camera.id\" [name]=\"camera.description\"></app-camera>\n  </div>\n\n</div>\n</div>\n");
 
 /***/ }),
 
@@ -546,7 +546,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".img-box {\n  min-height: 200px;\n  min-width: 300px;\n  background: url('Group 28.png');\n}\n\n.farseer-card {\n  margin-bottom: 8px;\n}\n\n.farseer-card-header {\n  height: 40px;\n  padding: 8px 16px;\n}\n\n.farseer-card-body {\n  margin: 0 auto;\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvY2FtZXJhL2NhbWVyYS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcGVuZW50cy9jYW1lcmEvY2FtZXJhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0EsaUJBQUE7RUFDRSxnQkFBQTtFQUNELCtCQUFBO0FDQUQ7O0FETUE7RUFDRSxrQkFBQTtBQ0hGOztBRE1BO0VBQ0UsWUFBQTtFQUNBLGlCQUFBO0FDSEY7O0FETUE7RUFDRSxjQUFBO0VBQ0EsWUFBQTtBQ0hGIiwiZmlsZSI6InNyYy9hcHAvY29tcGVuZW50cy9jYW1lcmEvY2FtZXJhLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4uaW1nLWJveHtcbm1pbi1oZWlnaHQ6IDIwMHB4O1xuICBtaW4td2lkdGg6IDMwMHB4O1xuIGJhY2tncm91bmQ6IHVybChcInNyYy9hc3NldHMvR3JvdXAgMjgucG5nXCIpO1xufVxuXG5cblxuXG4uZmFyc2Vlci1jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWhlYWRlciB7XG4gIGhlaWdodDogNDBweDtcbiAgcGFkZGluZzogOHB4IDE2cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwYWRkaW5nOiA4cHg7XG59XG5cbiIsIi5pbWctYm94IHtcbiAgbWluLWhlaWdodDogMjAwcHg7XG4gIG1pbi13aWR0aDogMzAwcHg7XG4gIGJhY2tncm91bmQ6IHVybChcInNyYy9hc3NldHMvR3JvdXAgMjgucG5nXCIpO1xufVxuXG4uZmFyc2Vlci1jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWhlYWRlciB7XG4gIGhlaWdodDogNDBweDtcbiAgcGFkZGluZzogOHB4IDE2cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwYWRkaW5nOiA4cHg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".img-box {\n  min-height: 200px;\n  min-width: 300px;\n}\n\n.farseer-card {\n  margin-bottom: 8px;\n}\n\n.farseer-card-header {\n  height: 40px;\n  padding: 8px 16px;\n}\n\n.farseer-card-body {\n  margin: 0 auto;\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvY2FtZXJhL2NhbWVyYS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcGVuZW50cy9jYW1lcmEvY2FtZXJhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0UsaUJBQUE7RUFDQSxnQkFBQTtBQ0FGOztBRElBO0VBQ0Usa0JBQUE7QUNERjs7QURJQTtFQUNFLFlBQUE7RUFDQSxpQkFBQTtBQ0RGOztBRElBO0VBQ0UsY0FBQTtFQUNBLFlBQUE7QUNERiIsImZpbGUiOiJzcmMvYXBwL2NvbXBlbmVudHMvY2FtZXJhL2NhbWVyYS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLmltZy1ib3gge1xuICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgbWluLXdpZHRoOiAzMDBweDtcbn1cblxuXG4uZmFyc2Vlci1jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWhlYWRlciB7XG4gIGhlaWdodDogNDBweDtcbiAgcGFkZGluZzogOHB4IDE2cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwYWRkaW5nOiA4cHg7XG59XG5cbiIsIi5pbWctYm94IHtcbiAgbWluLWhlaWdodDogMjAwcHg7XG4gIG1pbi13aWR0aDogMzAwcHg7XG59XG5cbi5mYXJzZWVyLWNhcmQge1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtaGVhZGVyIHtcbiAgaGVpZ2h0OiA0MHB4O1xuICBwYWRkaW5nOiA4cHggMTZweDtcbn1cblxuLmZhcnNlZXItY2FyZC1ib2R5IHtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIHBhZGRpbmc6IDhweDtcbn0iXX0= */");
 
 /***/ }),
 
@@ -576,25 +576,80 @@ let CameraComponent = class CameraComponent {
     constructor(sanitizer, breakpointObserver) {
         this.sanitizer = sanitizer;
         this.breakpointObserver = breakpointObserver;
+        this.safeSrc = "assets/Group 28.png";
     }
     ngOnInit() {
+        this.handleBreakpoints();
+        this.startSocket(this.id);
+    }
+    handleBreakpoints() {
         this.breakpointObserver
-            .observe(['(min-width: 1280px)'])
+            .observe(['(min-width: 320px)'])
             .subscribe((state) => {
             if (state.matches) {
-                this.widthVideo = "580px";
-                this.heightVideo = "266px";
-            }
-            else {
-                this.widthVideo = "400px";
-                this.heightVideo = "266px";
+                this.widthVideo = "170";
+                this.heightVideo = "170";
             }
         });
-        this.safeSrc = "assets/Group 28.png";
-        if (this.id) {
-            this.startSocket(this.id);
-            this.name = "Камера " + this.id;
-        }
+        this.breakpointObserver
+            .observe(['(min-width: 577px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "300";
+                this.heightVideo = "260";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 600px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "440";
+                this.heightVideo = "260";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 765px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                //600 -960
+                this.widthVideo = "570";
+                this.heightVideo = "270";
+            }
+            else { }
+        });
+        this.breakpointObserver
+            .observe([_angular_cdk_layout__WEBPACK_IMPORTED_MODULE_5__["Breakpoints"].Medium])
+            .subscribe((state) => {
+            if (state.matches) {
+                //960 -992
+                this.widthVideo = "660";
+                this.heightVideo = "270";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 990px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "400";
+                this.heightVideo = "266";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 1200px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "500";
+                this.heightVideo = "276";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 1400px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "600";
+                this.heightVideo = "276";
+            }
+        });
     }
     startSocket(id) {
         this.WebSocketSubject = Object(rxjs_webSocket__WEBPACK_IMPORTED_MODULE_3__["webSocket"])({
@@ -604,6 +659,7 @@ let CameraComponent = class CameraComponent {
             }
         });
         this.WebSocketSubject.subscribe(msg => {
+            // console.log('success')
             this.safeSrc = this.sanitizer.bypassSecurityTrustResourceUrl(window.URL.createObjectURL(msg));
         }, // Called whenever there is a message from the server.
         // Called whenever there is a message from the server.
@@ -669,6 +725,7 @@ __webpack_require__.r(__webpack_exports__);
 let DashboardComponent = class DashboardComponent {
     constructor(cameraService) {
         this.cameraService = cameraService;
+        this.listItems = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
     }
     ngOnInit() {
         this.cameras = this.cameraService.todos; // subscribe to entire collection
@@ -737,8 +794,6 @@ let HomeComponent = class HomeComponent {
             }
             else {
                 this.isMobile = true;
-                this.widthVideo = "300px";
-                this.heightVideo = "200px";
             }
         });
         this.breakpointObserver
@@ -749,8 +804,6 @@ let HomeComponent = class HomeComponent {
             }
             else {
                 this.isMobileTablet = true;
-                this.widthVideo = "500px";
-                this.heightVideo = "300px";
             }
         });
         this.breakpointObserver
@@ -758,18 +811,84 @@ let HomeComponent = class HomeComponent {
             .subscribe((state) => {
             if (state.matches) {
                 this.isMobileTablet = false;
-                this.widthVideo = "572px";
-                this.heightVideo = "266px";
             }
             else {
-                this.widthVideo = "400px";
-                this.heightVideo = "266px";
             }
         });
+        this.handleBreakpoints();
         this.safeSrc1 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/eKFTSSKCzWA");
         this.safeSrc2 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/74b3Zb18UDM");
         this.safeSrc3 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/5lCRsLjMeso");
         this.safeSrc4 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/lM02vNMRRB0");
+    }
+    handleBreakpoints() {
+        this.breakpointObserver
+            .observe(['(min-width: 320px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "170px";
+                this.heightVideo = "170px";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 577px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "300px";
+                this.heightVideo = "260px";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 600px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "440px";
+                this.heightVideo = "260px";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 765px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                //600 -960
+                this.widthVideo = "570px";
+                this.heightVideo = "270px";
+            }
+            else { }
+        });
+        this.breakpointObserver
+            .observe([_angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__["Breakpoints"].Medium])
+            .subscribe((state) => {
+            if (state.matches) {
+                //960 -992
+                this.widthVideo = "660px";
+                this.heightVideo = "270px";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 990px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "400px";
+                this.heightVideo = "266px";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 1200px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "500px";
+                this.heightVideo = "276px";
+            }
+        });
+        this.breakpointObserver
+            .observe(['(min-width: 1400px)'])
+            .subscribe((state) => {
+            if (state.matches) {
+                this.widthVideo = "600px";
+                this.heightVideo = "276px";
+            }
+        });
     }
 };
 HomeComponent.ctorParameters = () => [
@@ -1098,9 +1217,13 @@ __webpack_require__.r(__webpack_exports__);
 
 const environment = {
     production: false,
-    apiUrl: 'http://127.0.0.1:8000/',
+    /*  apiUrl: 'http://localhost:8000/',
+      cameraURLWS: function (id) {
+        return `ws://0.0.0.0:8000/emulation/cameras/${id}/stream`
+      }*/
+    apiUrl: 'http://192.168.0.66:8000/',
     cameraURLWS: function (id) {
-        return `ws://0.0.0.0:8000/emulation/cameras/${id}/stream`;
+        return `ws://192.168.0.66:8000/emulation/cameras/${id}/stream`;
     }
 };
 /*
