@@ -32,59 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nb-layout>\n  <nb-layout-column class=\"farseer-padding16\">\n    <router-outlet>\n    </router-outlet>\n  </nb-layout-column>\n  <nb-sidebar tag=\"left\" state=\"compacted\">\n    <nb-menu [items]=\"items\">\n    </nb-menu>\n  </nb-sidebar>\n</nb-layout>\n");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/camera/camera.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/camera/camera.component.html ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n<nb-card size=\"small\" class=\"farseer-card \">\n  <nb-card-header class=\"farseer-card-header\">{{name}}</nb-card-header>\n  <nb-card-body class=\"farseer-card-body\">\n    <div class=\"video\">\n      <img [src]=\"safeSrc\" class=\"img-box\" [ngStyle]=\"{'max-width.px': widthVideo,'max-height.px': heightVideo}\"/>\n    </div>\n  </nb-card-body>\n</nb-card>\n\n");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/dashboard/dashboard.component.html":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/dashboard/dashboard.component.html ***!
-  \*****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" >\n<div class=\"row\" >\n  <div class=\"col-lg-6\" *ngFor=\"let camera of cameras | async \">\n    <app-camera  [id]=\"camera.id\" [name]=\"camera.description\"></app-camera>\n  </div>\n\n</div>\n</div>\n");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/home/home.component.html":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/home/home.component.html ***!
-  \*******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div *ngIf=\"!isMobile && !isMobileTablet\" class=\"card-row\">\n  <div class=\"card-col\">\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 1</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc1\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                  frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </nb-card-body>\n    </nb-card>\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 3</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <div class=\"video\">\n            <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc3\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                    frameborder=\"0\"\n                    webkitallowfullscreen mozallowfullscreen\n                    allowfullscreen></iframe>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n  <div class=\"card-col\">\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 2</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc2\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                  frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </nb-card-body>\n    </nb-card>\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 4</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <div class=\"video\">\n            <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc4\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                    frameborder=\"0\"\n                    webkitallowfullscreen mozallowfullscreen\n                    allowfullscreen></iframe>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n  </div>\n</div>\n\n<div  *ngIf=\"isMobileTablet\">\n\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 1</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc1\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                  frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </nb-card-body>\n    </nb-card>\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 3</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <div class=\"video\">\n            <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc3\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                    frameborder=\"0\"\n                    webkitallowfullscreen mozallowfullscreen\n                    allowfullscreen></iframe>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 2</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc2\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                  frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </nb-card-body>\n    </nb-card>\n    <nb-card size=\"small\" class=\"farseer-card\">\n      <nb-card-header class=\"farseer-card-header\">Камерa 4</nb-card-header>\n      <nb-card-body class=\"farseer-card-body\">\n        <div class=\"video\">\n          <div class=\"video\">\n            <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc4\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                    frameborder=\"0\"\n                    webkitallowfullscreen mozallowfullscreen\n                    allowfullscreen></iframe>\n          </div>\n        </div>\n      </nb-card-body>\n    </nb-card>\n\n</div>\n\n<div  *ngIf=\"isMobile && !isMobileTablet\">\n\n  <nb-card size=\"tiny\" class=\"farseer-card\">\n    <nb-card-header class=\"farseer-card-header\">Камерa 1</nb-card-header>\n    <nb-card-body class=\"farseer-card-body\">\n      <div class=\"video\">\n        <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc1\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                frameborder=\"0\"\n                webkitallowfullscreen mozallowfullscreen\n                allowfullscreen></iframe>\n      </div>\n    </nb-card-body>\n  </nb-card>\n  <nb-card size=\"tiny\" class=\"farseer-card\">\n    <nb-card-header class=\"farseer-card-header\">Камерa 3</nb-card-header>\n    <nb-card-body class=\"farseer-card-body\">\n      <div class=\"video\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc3\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                  frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </div>\n    </nb-card-body>\n  </nb-card>\n  <nb-card size=\"tiny\" class=\"farseer-card\">\n    <nb-card-header class=\"farseer-card-header\">Камерa 2</nb-card-header>\n    <nb-card-body class=\"farseer-card-body\">\n      <div class=\"video\">\n        <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc2\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                frameborder=\"0\"\n                webkitallowfullscreen mozallowfullscreen\n                allowfullscreen></iframe>\n      </div>\n    </nb-card-body>\n  </nb-card>\n  <nb-card size=\"tiny\" class=\"farseer-card\">\n    <nb-card-header class=\"farseer-card-header\">Камерa 4</nb-card-header>\n    <nb-card-body class=\"farseer-card-body\">\n      <div class=\"video\">\n        <div class=\"video\">\n          <iframe [class.thumbnail]=\"thumbnail\" [src]=\"safeSrc4\" [width]=\"widthVideo\" [height]=\"heightVideo\"\n                  frameborder=\"0\"\n                  webkitallowfullscreen mozallowfullscreen\n                  allowfullscreen></iframe>\n        </div>\n      </div>\n    </nb-card-body>\n  </nb-card>\n\n</div>\n\n\n\n\n\n\n\n");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/login/login.component.html":
-/*!*********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/login/login.component.html ***!
-  \*********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"login-container\" fxFlexFill fxLayout=\"row\" fxLayoutGap=\"8px\"  >\n  <div fxLayout=\"column\" fxFlex=\"25\" fxLayoutAlign=\"center center\">\n    <h3>Ввійти</h3>\n    <form [formGroup]=\"form\" (ngSubmit)=\"login()\">\n      <p>\n        <input type=\"text\" placeholder=\"Логін\" formControlName=\"username\">\n      </p>\n      <p>\n        <input type=\"password\" placeholder=\"Пароль\" formControlName=\"password\">\n      </p>\n      <p *ngIf=\"error\" class=\"error\">\n        {{ error }}\n      </p>\n      <div class=\"button\">\n        <button  type=\"submit\">ДАВАЙТЕ ПОЧНЕМО!</button>\n      </div>\n    </form>\n  </div>\n\n</div>\n\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nb-layout>\n  <nb-layout-column >\n    <router-outlet>\n    </router-outlet>\n  </nb-layout-column>\n  <nb-sidebar tag=\"left\" state=\"compacted\">\n    <nb-menu [items]=\"items\">\n    </nb-menu>\n  </nb-sidebar>\n</nb-layout>\n");
 
 /***/ }),
 
@@ -330,19 +278,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var _compenents_home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./compenents/home/home.component */ "./src/app/compenents/home/home.component.ts");
-/* harmony import */ var _compenents_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./compenents/dashboard/dashboard.component */ "./src/app/compenents/dashboard/dashboard.component.ts");
-/* harmony import */ var _compenents_login_login_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./compenents/login/login.component */ "./src/app/compenents/login/login.component.ts");
-
-
+/* harmony import */ var _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./services/auth-guard.service */ "./src/app/services/auth-guard.service.ts");
 
 
 
 
 const routes = [
-    { path: '', component: _compenents_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
-    { path: 'login', component: _compenents_login_login_component__WEBPACK_IMPORTED_MODULE_5__["LoginComponent"] },
-    { path: 'dashboard', component: _compenents_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__["DashboardComponent"] }
+    {
+        path: '',
+        canActivate: [_services_auth_guard_service__WEBPACK_IMPORTED_MODULE_3__["AuthGuardService"]],
+        loadChildren: () => __webpack_require__.e(/*! import() | components-pages-pages-module */ "components-pages-pages-module").then(__webpack_require__.bind(null, /*! ./components/pages/pages.module */ "./src/app/components/pages/pages.module.ts")).then(m => m.NgxPagesModule)
+    },
+    {
+        path: 'auth',
+        loadChildren: () => __webpack_require__.e(/*! import() | components-auth-auth-module */ "components-auth-auth-module").then(__webpack_require__.bind(null, /*! ./components/auth/auth.module */ "./src/app/components/auth/auth.module.ts")).then(m => m.NgxAuthModule)
+    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -366,7 +316,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("nb-layout-column.farseer-padding16 {\n  padding: 16px !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFDO0VBQW9DLHdCQUFBO0FDRXJDIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIG5iLWxheW91dC1jb2x1bW4uZmFyc2Vlci1wYWRkaW5nMTZ7IHBhZGRpbmc6IDE2cHghaW1wb3J0YW50O31cbiIsIm5iLWxheW91dC1jb2x1bW4uZmFyc2Vlci1wYWRkaW5nMTYge1xuICBwYWRkaW5nOiAxNnB4ICFpbXBvcnRhbnQ7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -383,13 +333,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/fesm2015/index.js");
+/* harmony import */ var _nebular_auth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @nebular/auth */ "./node_modules/@nebular/auth/fesm2015/index.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
 
 
 
 let AppComponent = class AppComponent {
-    constructor(sidebarService, menuService) {
+    constructor(nbTokenService, sidebarService, router, menuService, authService) {
+        this.nbTokenService = nbTokenService;
         this.sidebarService = sidebarService;
+        this.router = router;
         this.menuService = menuService;
+        this.authService = authService;
         this.title = 'farseer';
         this.items = [
             {
@@ -398,34 +355,58 @@ let AppComponent = class AppComponent {
             {
                 title: 'Спостереження',
                 icon: { icon: 'eye-outline', pack: 'eva' },
-                link: [''],
+                link: ['dashboard'],
             },
             {
                 title: 'Статистика',
                 icon: { icon: 'bar-chart-outline', pack: 'eva' },
-                link: [''],
+                link: ["home"],
             },
             {
                 title: 'Звіт',
                 icon: { icon: 'file-text-outline', pack: 'eva' },
-                link: [""],
             },
             {
                 title: 'Вихід',
                 icon: 'log-out-outline',
-                link: ['login'],
             },
         ];
+        this.handleMenu();
+    }
+    handleMenu() {
         this.menuService.onItemClick().subscribe((event) => {
             if (event.item.icon == "menu") {
                 this.sidebarService.toggle(true, 'left');
+            }
+            if (event.item.title == "Вихід") {
+                this.nbTokenService.clear();
+                this.sidebarService.collapse('left');
+                this.router.navigate(['auth/login']);
+            }
+        });
+        this.sowMenuOnLogin();
+    }
+    sowMenuOnLogin() {
+        this.authService.onTokenChange()
+            .subscribe((token) => {
+            if (token.isValid()) {
+                this.sidebarService.compact('left');
+            }
+        });
+        this.authService.getToken()
+            .subscribe((token) => {
+            if (token.isValid()) {
+                this.sidebarService.compact('left');
             }
         });
     }
 };
 AppComponent.ctorParameters = () => [
+    { type: _nebular_auth__WEBPACK_IMPORTED_MODULE_3__["NbTokenService"] },
     { type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbSidebarService"] },
-    { type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbMenuService"] }
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] },
+    { type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbMenuService"] },
+    { type: _nebular_auth__WEBPACK_IMPORTED_MODULE_3__["NbAuthService"] }
 ];
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -456,20 +437,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _compenents_home_home_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./compenents/home/home.component */ "./src/app/compenents/home/home.component.ts");
-/* harmony import */ var _compenents_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./compenents/dashboard/dashboard.component */ "./src/app/compenents/dashboard/dashboard.component.ts");
-/* harmony import */ var _compenents_login_login_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./compenents/login/login.component */ "./src/app/compenents/login/login.component.ts");
-/* harmony import */ var _compenents_camera_camera_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./compenents/camera/camera.component */ "./src/app/compenents/camera/camera.component.ts");
-/* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/authentication.service */ "./src/app/services/authentication.service.ts");
-/* harmony import */ var _services_camera_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./services/camera.service */ "./src/app/services/camera.service.ts");
-/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./helpers */ "./src/app/helpers/index.ts");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
-/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/fesm2015/index.js");
-/* harmony import */ var _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @nebular/eva-icons */ "./node_modules/@nebular/eva-icons/fesm2015/index.js");
-/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm2015/layout.js");
-
-
-
+/* harmony import */ var _services_camera_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./services/camera.service */ "./src/app/services/camera.service.ts");
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./helpers */ "./src/app/helpers/index.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+/* harmony import */ var _nebular_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @nebular/theme */ "./node_modules/@nebular/theme/fesm2015/index.js");
+/* harmony import */ var _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @nebular/eva-icons */ "./node_modules/@nebular/eva-icons/fesm2015/index.js");
+/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm2015/layout.js");
+/* harmony import */ var _nebular_auth__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @nebular/auth */ "./node_modules/@nebular/auth/fesm2015/index.js");
+/* harmony import */ var _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./services/auth-guard.service */ "./src/app/services/auth-guard.service.ts");
 
 
 
@@ -492,10 +467,6 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-            _compenents_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"],
-            _compenents_login_login_component__WEBPACK_IMPORTED_MODULE_9__["LoginComponent"],
-            _compenents_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"],
-            _compenents_camera_camera_component__WEBPACK_IMPORTED_MODULE_10__["CameraComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -503,504 +474,54 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_14__["BrowserAnimationsModule"],
-            _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_17__["LayoutModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbThemeModule"].forRoot({ name: 'cosmic' }),
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbLayoutModule"],
-            _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_16__["NbEvaIconsModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbSidebarModule"].forRoot(),
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbIconModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbButtonModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbCardModule"],
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbMenuModule"].forRoot(),
-            _nebular_theme__WEBPACK_IMPORTED_MODULE_15__["NbActionsModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
+            _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_12__["LayoutModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbThemeModule"].forRoot({ name: 'cosmic' }),
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbLayoutModule"],
+            _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_11__["NbEvaIconsModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbSidebarModule"].forRoot(),
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbIconModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbButtonModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbCardModule"],
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbMenuModule"].forRoot(),
+            _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbActionsModule"],
+            _nebular_auth__WEBPACK_IMPORTED_MODULE_13__["NbAuthModule"].forRoot({
+                strategies: [
+                    _nebular_auth__WEBPACK_IMPORTED_MODULE_13__["NbPasswordAuthStrategy"].setup({
+                        name: 'email',
+                        token: {
+                            class: _nebular_auth__WEBPACK_IMPORTED_MODULE_13__["NbAuthJWTToken"],
+                            key: 'token',
+                        },
+                        baseEndpoint: '',
+                        login: {
+                            method: 'post',
+                            endpoint: 'users/login',
+                        }
+                    }),
+                ],
+                forms: {
+                    login: {
+                        redirectDelay: 0,
+                        showMessages: {
+                            success: true,
+                        },
+                    }
+                },
+            })
         ],
         providers: [
-            _services_authentication_service__WEBPACK_IMPORTED_MODULE_11__["AuthenticationService"],
-            _services_camera_service__WEBPACK_IMPORTED_MODULE_12__["CameraService"],
+            _services_camera_service__WEBPACK_IMPORTED_MODULE_7__["CameraService"],
             {
                 provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
-                useClass: _helpers__WEBPACK_IMPORTED_MODULE_13__["ApiPathInterceptor"],
+                useClass: _helpers__WEBPACK_IMPORTED_MODULE_8__["ApiPathInterceptor"],
                 multi: true
             },
-            {
-                provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
-                useClass: _helpers__WEBPACK_IMPORTED_MODULE_13__["JwtInterceptor"],
-                multi: true
-            }
+            _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_14__["AuthGuardService"]
         ],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })
 ], AppModule);
-
-
-
-/***/ }),
-
-/***/ "./src/app/compenents/camera/camera.component.scss":
-/*!*********************************************************!*\
-  !*** ./src/app/compenents/camera/camera.component.scss ***!
-  \*********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".img-box {\n  min-height: 200px;\n  min-width: 300px;\n}\n\n.farseer-card {\n  margin-bottom: 8px;\n}\n\n.farseer-card-header {\n  height: 40px;\n  padding: 8px 16px;\n}\n\n.farseer-card-body {\n  margin: 0 auto;\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvY2FtZXJhL2NhbWVyYS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcGVuZW50cy9jYW1lcmEvY2FtZXJhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0UsaUJBQUE7RUFDQSxnQkFBQTtBQ0FGOztBRElBO0VBQ0Usa0JBQUE7QUNERjs7QURJQTtFQUNFLFlBQUE7RUFDQSxpQkFBQTtBQ0RGOztBRElBO0VBQ0UsY0FBQTtFQUNBLFlBQUE7QUNERiIsImZpbGUiOiJzcmMvYXBwL2NvbXBlbmVudHMvY2FtZXJhL2NhbWVyYS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLmltZy1ib3gge1xuICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgbWluLXdpZHRoOiAzMDBweDtcbn1cblxuXG4uZmFyc2Vlci1jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWhlYWRlciB7XG4gIGhlaWdodDogNDBweDtcbiAgcGFkZGluZzogOHB4IDE2cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwYWRkaW5nOiA4cHg7XG59XG5cbiIsIi5pbWctYm94IHtcbiAgbWluLWhlaWdodDogMjAwcHg7XG4gIG1pbi13aWR0aDogMzAwcHg7XG59XG5cbi5mYXJzZWVyLWNhcmQge1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtaGVhZGVyIHtcbiAgaGVpZ2h0OiA0MHB4O1xuICBwYWRkaW5nOiA4cHggMTZweDtcbn1cblxuLmZhcnNlZXItY2FyZC1ib2R5IHtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIHBhZGRpbmc6IDhweDtcbn0iXX0= */");
-
-/***/ }),
-
-/***/ "./src/app/compenents/camera/camera.component.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/compenents/camera/camera.component.ts ***!
-  \*******************************************************/
-/*! exports provided: CameraComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CameraComponent", function() { return CameraComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var rxjs_webSocket__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/webSocket */ "./node_modules/rxjs/_esm2015/webSocket/index.js");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../environments/environment */ "./src/environments/environment.ts");
-/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm2015/layout.js");
-
-
-
-
-
-
-let CameraComponent = class CameraComponent {
-    constructor(sanitizer, breakpointObserver) {
-        this.sanitizer = sanitizer;
-        this.breakpointObserver = breakpointObserver;
-        this.safeSrc = "assets/Group 28.png";
-    }
-    ngOnInit() {
-        this.handleBreakpoints();
-        this.startSocket(this.id);
-    }
-    handleBreakpoints() {
-        this.breakpointObserver
-            .observe(['(min-width: 320px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "170";
-                this.heightVideo = "170";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 577px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "300";
-                this.heightVideo = "260";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 600px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "440";
-                this.heightVideo = "260";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 765px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                //600 -960
-                this.widthVideo = "570";
-                this.heightVideo = "270";
-            }
-            else { }
-        });
-        this.breakpointObserver
-            .observe([_angular_cdk_layout__WEBPACK_IMPORTED_MODULE_5__["Breakpoints"].Medium])
-            .subscribe((state) => {
-            if (state.matches) {
-                //960 -992
-                this.widthVideo = "660";
-                this.heightVideo = "270";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 990px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "400";
-                this.heightVideo = "266";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 1200px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "500";
-                this.heightVideo = "276";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 1400px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "600";
-                this.heightVideo = "276";
-            }
-        });
-    }
-    startSocket(id) {
-        this.WebSocketSubject = Object(rxjs_webSocket__WEBPACK_IMPORTED_MODULE_3__["webSocket"])({
-            url: _environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].cameraURLWS(id),
-            deserializer: (msg) => {
-                return msg.data;
-            }
-        });
-        this.WebSocketSubject.subscribe(msg => {
-            // console.log('success')
-            this.safeSrc = this.sanitizer.bypassSecurityTrustResourceUrl(window.URL.createObjectURL(msg));
-        }, // Called whenever there is a message from the server.
-        // Called whenever there is a message from the server.
-        err => console.log(err), // Called if at any point WebSocket API signals some kind of error.
-        () => console.log('complete') // Called when connection is closed (for whatever reason).
-        );
-    }
-    ngOnDestroy() {
-        this.WebSocketSubject.unsubscribe();
-    }
-};
-CameraComponent.ctorParameters = () => [
-    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] },
-    { type: _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_5__["BreakpointObserver"] }
-];
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
-], CameraComponent.prototype, "id", void 0);
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
-], CameraComponent.prototype, "name", void 0);
-CameraComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-camera',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./camera.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/camera/camera.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./camera.component.scss */ "./src/app/compenents/camera/camera.component.scss")).default]
-    })
-], CameraComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/compenents/dashboard/dashboard.component.scss":
-/*!***************************************************************!*\
-  !*** ./src/app/compenents/dashboard/dashboard.component.scss ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".mat-h1 {\n  margin: 20px;\n  color: #cccccc;\n}\n\n.mat-h3 {\n  margin: 20px;\n  color: #05C985;\n}\n\n.right-container {\n  margin-top: 50px;\n  height: 100%;\n  min-width: 150px;\n  float: right;\n}\n\n.type-name {\n  min-width: 150px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvZGFzaGJvYXJkL2Rhc2hib2FyZC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcGVuZW50cy9kYXNoYm9hcmQvZGFzaGJvYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtBO0VBQ0UsWUFBQTtFQUNBLGNBQUE7QUNKRjs7QURPQTtFQUNFLFlBQUE7RUFDQSxjQVhxQjtBQ092Qjs7QURTQTtFQUNFLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtBQ05GOztBRFVBO0VBQ0UsZ0JBQUE7QUNQRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBlbmVudHMvZGFzaGJvYXJkL2Rhc2hib2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuJGxpZ2h0LXNlY29uZGFyeS10ZXh0OiAjMDVDOTg1O1xuXG4kbGlnaHQtcHJpbWFyeS10ZXh0OiAjQ0NDQ0NDO1xuXG4ubWF0LWgxe1xuICBtYXJnaW46IDIwcHg7XG4gIGNvbG9yOiAjY2NjY2NjO1xufVxuXG4ubWF0LWgze1xuICBtYXJnaW46IDIwcHg7XG4gIGNvbG9yOiAkbGlnaHQtc2Vjb25kYXJ5LXRleHRcbn1cblxuXG5cbi5yaWdodC1jb250YWluZXIge1xuICBtYXJnaW4tdG9wOiA1MHB4O1xuICBoZWlnaHQ6IDEwMCU7XG4gIG1pbi13aWR0aDogMTUwcHg7XG4gIGZsb2F0OiByaWdodDtcbn1cblxuXG4udHlwZS1uYW1lIHtcbiAgbWluLXdpZHRoOiAxNTBweDtcbn1cblxuIiwiLm1hdC1oMSB7XG4gIG1hcmdpbjogMjBweDtcbiAgY29sb3I6ICNjY2NjY2M7XG59XG5cbi5tYXQtaDMge1xuICBtYXJnaW46IDIwcHg7XG4gIGNvbG9yOiAjMDVDOTg1O1xufVxuXG4ucmlnaHQtY29udGFpbmVyIHtcbiAgbWFyZ2luLXRvcDogNTBweDtcbiAgaGVpZ2h0OiAxMDAlO1xuICBtaW4td2lkdGg6IDE1MHB4O1xuICBmbG9hdDogcmlnaHQ7XG59XG5cbi50eXBlLW5hbWUge1xuICBtaW4td2lkdGg6IDE1MHB4O1xufSJdfQ== */");
-
-/***/ }),
-
-/***/ "./src/app/compenents/dashboard/dashboard.component.ts":
-/*!*************************************************************!*\
-  !*** ./src/app/compenents/dashboard/dashboard.component.ts ***!
-  \*************************************************************/
-/*! exports provided: DashboardComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _services_camera_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/camera.service */ "./src/app/services/camera.service.ts");
-
-
-
-let DashboardComponent = class DashboardComponent {
-    constructor(cameraService) {
-        this.cameraService = cameraService;
-        this.listItems = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-    }
-    ngOnInit() {
-        this.cameras = this.cameraService.todos; // subscribe to entire collection
-        this.cameraService.loadAll();
-    }
-};
-DashboardComponent.ctorParameters = () => [
-    { type: _services_camera_service__WEBPACK_IMPORTED_MODULE_2__["CameraService"] }
-];
-DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-dashboard',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/dashboard/dashboard.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./dashboard.component.scss */ "./src/app/compenents/dashboard/dashboard.component.scss")).default]
-    })
-], DashboardComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/compenents/home/home.component.scss":
-/*!*****************************************************!*\
-  !*** ./src/app/compenents/home/home.component.scss ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (":host {\n  display: block;\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n\n.card-row {\n  display: -webkit-box;\n  display: flex;\n  margin: 0 -0.5rem;\n}\n\n.card-col {\n  -webkit-box-flex: 1;\n          flex: 1 0 calc(50% - 1rem);\n  margin: 0 0.5rem;\n}\n\n.farseer-card {\n  margin-bottom: 8px;\n}\n\n.farseer-card-header {\n  height: 40px;\n  padding: 8px 16px;\n}\n\n.farseer-card-body {\n  margin: 0 auto;\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wZW5lbnRzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLGNBQUE7RUFFQSxrQkFBQTtFQUNBLGdCQUFBO0FDREY7O0FESUE7RUFDRSxvQkFBQTtFQUFBLGFBQUE7RUFDQSxpQkFBQTtBQ0RGOztBRElBO0VBQ0UsbUJBQUE7VUFBQSwwQkFBQTtFQUNBLGdCQUFBO0FDREY7O0FESUE7RUFDRSxrQkFBQTtBQ0RGOztBRElBO0VBQ0UsWUFBQTtFQUNBLGlCQUFBO0FDREY7O0FESUE7RUFDRSxjQUFBO0VBQ0EsWUFBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvY29tcGVuZW50cy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbjpob3N0IHtcbiAgZGlzcGxheTogYmxvY2s7XG4gLy8gbWF4LWhlaWdodDogODByZW07XG4gIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgb3ZlcmZsb3cteTogYXV0bztcbn1cblxuLmNhcmQtcm93IHtcbiAgZGlzcGxheTogZmxleDtcbiAgbWFyZ2luOiAwIC0wLjVyZW07XG59XG5cbi5jYXJkLWNvbCB7XG4gIGZsZXg6IDEgMCBjYWxjKDUwJSAtIDFyZW0pO1xuICBtYXJnaW46IDAgMC41cmVtO1xufVxuXG4uZmFyc2Vlci1jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWhlYWRlciB7XG4gIGhlaWdodDogNDBweDtcbiAgcGFkZGluZzogOHB4IDE2cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBwYWRkaW5nOiA4cHg7XG59XG4iLCI6aG9zdCB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBvdmVyZmxvdy14OiBoaWRkZW47XG4gIG92ZXJmbG93LXk6IGF1dG87XG59XG5cbi5jYXJkLXJvdyB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIG1hcmdpbjogMCAtMC41cmVtO1xufVxuXG4uY2FyZC1jb2wge1xuICBmbGV4OiAxIDAgY2FsYyg1MCUgLSAxcmVtKTtcbiAgbWFyZ2luOiAwIDAuNXJlbTtcbn1cblxuLmZhcnNlZXItY2FyZCB7XG4gIG1hcmdpbi1ib3R0b206IDhweDtcbn1cblxuLmZhcnNlZXItY2FyZC1oZWFkZXIge1xuICBoZWlnaHQ6IDQwcHg7XG4gIHBhZGRpbmc6IDhweCAxNnB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWJvZHkge1xuICBtYXJnaW46IDAgYXV0bztcbiAgcGFkZGluZzogOHB4O1xufSJdfQ== */");
-
-/***/ }),
-
-/***/ "./src/app/compenents/home/home.component.ts":
-/*!***************************************************!*\
-  !*** ./src/app/compenents/home/home.component.ts ***!
-  \***************************************************/
-/*! exports provided: HomeComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm2015/layout.js");
-
-
-
-
-let HomeComponent = class HomeComponent {
-    constructor(sanitizer, breakpointObserver) {
-        this.sanitizer = sanitizer;
-        this.breakpointObserver = breakpointObserver;
-        this.widthVideo = "400px";
-        this.heightVideo = "266px";
-    }
-    ngOnInit() {
-        this.breakpointObserver
-            .observe(['(min-width: 600px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.isMobile = false;
-            }
-            else {
-                this.isMobile = true;
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 960px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.isMobileTablet = false;
-            }
-            else {
-                this.isMobileTablet = true;
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 1280px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.isMobileTablet = false;
-            }
-            else {
-            }
-        });
-        this.handleBreakpoints();
-        this.safeSrc1 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/eKFTSSKCzWA");
-        this.safeSrc2 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/74b3Zb18UDM");
-        this.safeSrc3 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/5lCRsLjMeso");
-        this.safeSrc4 = this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/lM02vNMRRB0");
-    }
-    handleBreakpoints() {
-        this.breakpointObserver
-            .observe(['(min-width: 320px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "170px";
-                this.heightVideo = "170px";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 577px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "300px";
-                this.heightVideo = "260px";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 600px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "440px";
-                this.heightVideo = "260px";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 765px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                //600 -960
-                this.widthVideo = "570px";
-                this.heightVideo = "270px";
-            }
-            else { }
-        });
-        this.breakpointObserver
-            .observe([_angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__["Breakpoints"].Medium])
-            .subscribe((state) => {
-            if (state.matches) {
-                //960 -992
-                this.widthVideo = "660px";
-                this.heightVideo = "270px";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 990px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "400px";
-                this.heightVideo = "266px";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 1200px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "500px";
-                this.heightVideo = "276px";
-            }
-        });
-        this.breakpointObserver
-            .observe(['(min-width: 1400px)'])
-            .subscribe((state) => {
-            if (state.matches) {
-                this.widthVideo = "600px";
-                this.heightVideo = "276px";
-            }
-        });
-    }
-};
-HomeComponent.ctorParameters = () => [
-    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] },
-    { type: _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__["BreakpointObserver"] }
-];
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer1", { static: false })
-], HomeComponent.prototype, "videoplayer1", void 0);
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer2", { static: false })
-], HomeComponent.prototype, "videoplayer2", void 0);
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer3", { static: false })
-], HomeComponent.prototype, "videoplayer3", void 0);
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])("videoPlayer4", { static: false })
-], HomeComponent.prototype, "videoplayer4", void 0);
-HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-home',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/home/home.component.html")).default,
-        changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectionStrategy"].OnPush,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.scss */ "./src/app/compenents/home/home.component.scss")).default]
-    })
-], HomeComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/compenents/login/login.component.scss":
-/*!*******************************************************!*\
-  !*** ./src/app/compenents/login/login.component.scss ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".login-container {\n  font-family: Rubik, serif;\n  color: #CCCCCC;\n}\n\n.hello-text-container {\n  color: #CCCCCC;\n  font-family: Rubik, serif;\n}\n\n.h1-work {\n  text-transform: uppercase;\n  width: 450px;\n  font-family: Rubik, serif;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 32px;\n  line-height: 38px;\n}\n\n.h5-work {\n  color: #CCCCCC;\n  height: 300px;\n  width: 450px;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 16px;\n  line-height: 30px;\n}\n\ninput {\n  height: 20px;\n  padding: 8px;\n}\n\n.error {\n  padding: 16px;\n  width: 300px;\n  color: white;\n  background-color: red;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2NvbXBlbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBlbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0E7RUFFRSx5QkFBQTtFQUNBLGNBTG1CO0FDRXJCOztBRE1BO0VBQ0UsY0FUbUI7RUFVbkIseUJBQUE7QUNIRjs7QURLQTtFQUNFLHlCQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQ0ZGOztBREtBO0VBQ0UsY0F2Qm1CO0VBd0JuQixhQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUNGRjs7QURVQTtFQUNFLFlBQUE7RUFDQSxZQUFBO0FDUEY7O0FEVUE7RUFDRSxhQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSxxQkFBQTtBQ1BGIiwiZmlsZSI6InNyYy9hcHAvY29tcGVuZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRsaWdodC1zZWNvbmRhcnktdGV4dDogIzA1Qzk4NTtcbiRsaWdodC1wcmltYXJ5LXRleHQ6ICNDQ0NDQ0M7XG5cbi5sb2dpbi1jb250YWluZXIge1xuXG4gIGZvbnQtZmFtaWx5OiBSdWJpaywgc2VyaWY7XG4gIGNvbG9yOiAkbGlnaHQtcHJpbWFyeS10ZXh0O1xufVxuXG4uaGVsbG8tdGV4dC1jb250YWluZXJ7XG4gIGNvbG9yOiAkbGlnaHQtcHJpbWFyeS10ZXh0O1xuICBmb250LWZhbWlseTogUnViaWssIHNlcmlmO1xufVxuLmgxLXdvcmsge1xuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICB3aWR0aDogNDUwcHg7XG4gIGZvbnQtZmFtaWx5OiBSdWJpaywgc2VyaWY7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogMzJweDtcbiAgbGluZS1oZWlnaHQ6IDM4cHg7XG59XG5cbi5oNS13b3JrIHtcbiAgY29sb3I6ICRsaWdodC1wcmltYXJ5LXRleHQ7XG4gIGhlaWdodDogMzAwcHg7XG4gIHdpZHRoOiA0NTBweDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBmb250LXNpemU6IDE2cHg7XG4gIGxpbmUtaGVpZ2h0OiAzMHB4O1xufVxuXG5cblxuXG5cblxuaW5wdXQge1xuICBoZWlnaHQ6IDIwcHg7XG4gIHBhZGRpbmc6IDhweDtcbn1cblxuLmVycm9yIHtcbiAgcGFkZGluZzogMTZweDtcbiAgd2lkdGg6IDMwMHB4O1xuICBjb2xvcjogd2hpdGU7XG4gIGJhY2tncm91bmQtY29sb3I6IHJlZDtcbn1cbiIsIi5sb2dpbi1jb250YWluZXIge1xuICBmb250LWZhbWlseTogUnViaWssIHNlcmlmO1xuICBjb2xvcjogI0NDQ0NDQztcbn1cblxuLmhlbGxvLXRleHQtY29udGFpbmVyIHtcbiAgY29sb3I6ICNDQ0NDQ0M7XG4gIGZvbnQtZmFtaWx5OiBSdWJpaywgc2VyaWY7XG59XG5cbi5oMS13b3JrIHtcbiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgd2lkdGg6IDQ1MHB4O1xuICBmb250LWZhbWlseTogUnViaWssIHNlcmlmO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBmb250LXNpemU6IDMycHg7XG4gIGxpbmUtaGVpZ2h0OiAzOHB4O1xufVxuXG4uaDUtd29yayB7XG4gIGNvbG9yOiAjQ0NDQ0NDO1xuICBoZWlnaHQ6IDMwMHB4O1xuICB3aWR0aDogNDUwcHg7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgZm9udC1zaXplOiAxNnB4O1xuICBsaW5lLWhlaWdodDogMzBweDtcbn1cblxuaW5wdXQge1xuICBoZWlnaHQ6IDIwcHg7XG4gIHBhZGRpbmc6IDhweDtcbn1cblxuLmVycm9yIHtcbiAgcGFkZGluZzogMTZweDtcbiAgd2lkdGg6IDMwMHB4O1xuICBjb2xvcjogd2hpdGU7XG4gIGJhY2tncm91bmQtY29sb3I6IHJlZDtcbn0iXX0= */");
-
-/***/ }),
-
-/***/ "./src/app/compenents/login/login.component.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/compenents/login/login.component.ts ***!
-  \*****************************************************/
-/*! exports provided: LoginComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/authentication.service */ "./src/app/services/authentication.service.ts");
-
-
-
-
-
-let LoginComponent = class LoginComponent {
-    constructor(router, authenticationService) {
-        this.router = router;
-        this.authenticationService = authenticationService;
-        this.form = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
-            username: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
-            password: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
-        });
-        this.model = {};
-        this.isLoading = false;
-    }
-    submit() {
-        this.router.navigate(['/dashboard']);
-        if (this.form.valid) {
-        }
-    }
-    ngOnInit() {
-        if (document.getElementById('lamp-anim')) {
-            document.getElementById('lamp-anim').hidden = false;
-            //window.lavaAnimation.run();
-        }
-    }
-    login() {
-        //TODO remove if server runs
-        this.router.navigate(['/dashboard']);
-        this.isLoading = true;
-        this.authenticationService.login(this.model.email, this.model.password)
-            .subscribe(data => {
-            this.router.navigate(['/dashboard']);
-        }, error => {
-            this.isLoading = false;
-        });
-    }
-};
-LoginComponent.ctorParameters = () => [
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
-    { type: _services_authentication_service__WEBPACK_IMPORTED_MODULE_4__["AuthenticationService"] }
-];
-tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()
-], LoginComponent.prototype, "error", void 0);
-LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-login',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/compenents/login/login.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./login.component.scss */ "./src/app/compenents/login/login.component.scss")).default]
-    })
-], LoginComponent);
 
 
 
@@ -1043,18 +564,14 @@ ApiPathInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*!**********************************!*\
   !*** ./src/app/helpers/index.ts ***!
   \**********************************/
-/*! exports provided: JwtInterceptor, ApiPathInterceptor */
+/*! exports provided: ApiPathInterceptor */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _jwt_interceptor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jwt.interceptor */ "./src/app/helpers/jwt.interceptor.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "JwtInterceptor", function() { return _jwt_interceptor__WEBPACK_IMPORTED_MODULE_1__["JwtInterceptor"]; });
-
-/* harmony import */ var _apipath_interceptor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apipath.interceptor */ "./src/app/helpers/apipath.interceptor.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ApiPathInterceptor", function() { return _apipath_interceptor__WEBPACK_IMPORTED_MODULE_2__["ApiPathInterceptor"]; });
-
+/* harmony import */ var _apipath_interceptor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./apipath.interceptor */ "./src/app/helpers/apipath.interceptor.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ApiPathInterceptor", function() { return _apipath_interceptor__WEBPACK_IMPORTED_MODULE_1__["ApiPathInterceptor"]; });
 
 
 
@@ -1062,90 +579,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/app/helpers/jwt.interceptor.ts":
-/*!********************************************!*\
-  !*** ./src/app/helpers/jwt.interceptor.ts ***!
-  \********************************************/
-/*! exports provided: JwtInterceptor */
+/***/ "./src/app/services/auth-guard.service.ts":
+/*!************************************************!*\
+  !*** ./src/app/services/auth-guard.service.ts ***!
+  \************************************************/
+/*! exports provided: AuthGuardService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JwtInterceptor", function() { return JwtInterceptor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthGuardService", function() { return AuthGuardService; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _nebular_auth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @nebular/auth */ "./node_modules/@nebular/auth/fesm2015/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
 
 
-let JwtInterceptor = class JwtInterceptor {
-    constructor() {
-        this.authUserInfo = null;
+
+
+
+let AuthGuardService = class AuthGuardService {
+    constructor(authService, router) {
+        this.authService = authService;
+        this.router = router;
     }
-    intercept(request, next) {
-        // add authorization header with jwt token if available
-        this.authUserInfo = JSON.parse(localStorage.getItem('currentUser'));
-        if (this.authUserInfo) {
-            request = request.clone({
-                setHeaders: {
-                    'Authorization': `${this.authUserInfo.token}`,
-                }
-            });
-            return next.handle(request);
-        }
-        else {
-            return next.handle(request);
-        }
-    }
-};
-JwtInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
-], JwtInterceptor);
-
-
-
-/***/ }),
-
-/***/ "./src/app/services/authentication.service.ts":
-/*!****************************************************!*\
-  !*** ./src/app/services/authentication.service.ts ***!
-  \****************************************************/
-/*! exports provided: AuthenticationService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthenticationService", function() { return AuthenticationService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
-
-
-
-
-const STORAGE_KEY_AUTH_USER = 'currentUser';
-let AuthenticationService = class AuthenticationService {
-    constructor(http) {
-        this.http = http;
-    }
-    login(email, password) {
-        return this.http.post('users/login', { email: "admin@mail.com", password: "admin" })
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(user => {
-            localStorage.removeItem(STORAGE_KEY_AUTH_USER);
-            if (user && user.token) {
-                localStorage.setItem(STORAGE_KEY_AUTH_USER, JSON.stringify(user));
+    canActivate() {
+        return this.authService.isAuthenticated()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(authenticated => {
+            if (!authenticated) {
+                this.router.navigate(['auth/login']);
             }
-            return user;
         }));
     }
 };
-AuthenticationService.ctorParameters = () => [
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+AuthGuardService.ctorParameters = () => [
+    { type: _nebular_auth__WEBPACK_IMPORTED_MODULE_3__["NbAuthService"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }
 ];
-AuthenticationService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+AuthGuardService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
         providedIn: 'root'
     })
-], AuthenticationService);
+], AuthGuardService);
 
 
 
@@ -1217,14 +693,14 @@ __webpack_require__.r(__webpack_exports__);
 
 const environment = {
     production: false,
-    /*  apiUrl: 'http://localhost:8000/',
-      cameraURLWS: function (id) {
-        return `ws://0.0.0.0:8000/emulation/cameras/${id}/stream`
-      }*/
-    apiUrl: 'http://192.168.0.66:8000/',
+    apiUrl: 'http://localhost:8000/',
     cameraURLWS: function (id) {
-        return `ws://192.168.0.66:8000/emulation/cameras/${id}/stream`;
+        return `ws://0.0.0.0:8000/emulation/cameras/${id}/stream`;
     }
+    /* apiUrl: 'http://192.168.0.66:8000/',
+     cameraURLWS: function (id) {
+       return `ws://192.168.0.66:8000/emulation/cameras/${id}/stream`
+     }*/
 };
 /*
  * For easier debugging in development mode, you can import the following file
