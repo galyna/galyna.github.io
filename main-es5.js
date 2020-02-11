@@ -1,3 +1,11 @@
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
@@ -51,7 +59,167 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nb-layout>\n  <nb-layout-column >\n    <router-outlet>\n    </router-outlet>\n  </nb-layout-column>\n  <nb-sidebar tag=\"left\" state=\"compacted\">\n    <nb-menu [items]=\"items\">\n    </nb-menu>\n  </nb-sidebar>\n</nb-layout>\n";
+    __webpack_exports__["default"] = "<nb-layout>\n  <nb-layout-column>\n    <router-outlet >\n    </router-outlet>\n  </nb-layout-column>\n  <nb-sidebar tag=\"left\" left state=\"collapsed\" >\n    <app-sidebar-left></app-sidebar-left>\n  </nb-sidebar>\n  <nb-sidebar tag=\"right\" right state=\"collapsed\" >\n    <app-sidebar-right></app-sidebar-right>\n  </nb-sidebar>\n\n</nb-layout>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.html":
+  /*!*********************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.html ***!
+    \*********************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesMenuSidebarLeftSidebarLeftComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n  <nb-menu [items]=\"menuItems\">\n  </nb-menu>\n\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.html":
+  /*!***********************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.html ***!
+    \***********************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesMenuSidebarRightSidebarRightComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n  <app-contravention></app-contravention>\n\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/contravention/contravention.component.html":
+  /*!************************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/contravention/contravention.component.html ***!
+    \************************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesPagesContraventionContraventionComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n  <nb-list>\n    <nb-list-item *ngFor=\"let contravention of contraventions\">\n      <span class=\"type-label\">{{contravention.type}}</span>\n      <span class=\"type-label\" >{{contravention.date}}</span>\n      <span class=\"type-label\">{{contravention.decription}}</span>\n    </nb-list-item>\n  </nb-list>\n\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/monitor/monitor.component.html":
+  /*!************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/monitor/monitor.component.html ***!
+    \************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesPagesMonitorMonitorComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n\n<nb-card  class=\"farseer-card\" >\n  <nb-card-body class=\"farseer-card-body\">\n      <img [src]=\"safeSrc\" class=\"img-monitor\" />\n  </nb-card-body>\n</nb-card>\n\n\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/monitoring/monitoring.component.html":
+  /*!******************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/monitoring/monitoring.component.html ***!
+    \******************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesPagesMonitoringMonitoringComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n  <nb-card>\n    <nb-card-body>\n      <nb-tabset fullWidth (changeTab)=\"handleTabSelection($event)\">\n        <nb-tab tabIcon=\"keypad-outline\">\n          <div class=\"row\">\n            <div class=\" col-md-6 col-lg-4  \" *ngFor=\"let camera of cameras \">\n              <nb-card size=\"small\" class=\"farseer-card \">\n                <nb-card-body class=\"farseer-card-body\">\n                  <a class=\"monitor-link\" [routerLink]=\"['/monitor', camera.id]\">\n                    <nb-icon class=\"monitor-icon\" icon=\"external-link\"></nb-icon>\n                  </a>\n                  <img [src]=\"camera.src\" class=\"img-box\"/>\n                </nb-card-body>\n              </nb-card>\n            </div>\n          </div>\n        </nb-tab>\n        <nb-tab tabTitle=\"ЦЕХ1\">\n          <div class=\"row\">\n            <div class=\"col-lg-4 col-xl-3\" *ngFor=\"let camera of cameras.slice(1,3) \">\n              <nb-card size=\"small\" class=\"farseer-card \">\n                <nb-card-body class=\"farseer-card-body\">\n                  <a class=\"monitor-link\" [routerLink]=\"['/monitor', camera.id]\">\n                    <nb-icon class=\"monitor-icon\" icon=\"external-link\"></nb-icon>\n                  </a>\n                  <img [src]=\"camera.src\" class=\"img-box\"/>\n                </nb-card-body>\n              </nb-card>\n            </div>\n          </div>\n        </nb-tab>\n        <nb-tab tabTitle=\"ГРУПА1\">\n          <div class=\"row\">\n            <div class=\"col-lg-4 col-xl-3\" *ngFor=\"let camera of cameras.slice(5,10) \">\n              <nb-card size=\"small\" class=\"farseer-card \">\n                <nb-card-body class=\"farseer-card-body\">\n                  <a class=\"monitor-link\" [routerLink]=\"['/monitor', camera.id]\">\n                    <nb-icon class=\"monitor-icon\" icon=\"external-link\"></nb-icon>\n                  </a>\n                  <img [src]=\"camera.src\" class=\"img-box\"/>\n                </nb-card-body>\n              </nb-card>\n            </div>\n          </div>\n        </nb-tab>\n        <nb-tab tabTitle=\"ГРУПА2\">\n          <div class=\"row\">\n            <div class=\"col-lg-4 col-xl-3\" *ngFor=\"let camera of cameras.slice(9,11) \">\n              <nb-card size=\"small\" class=\"farseer-card \">\n                <nb-card-body class=\"farseer-card-body\">\n                  <a class=\"monitor-link\" [routerLink]=\"['/monitor', camera.id]\">\n                    <nb-icon class=\"monitor-icon\" icon=\"external-link\"></nb-icon>\n                  </a>\n                  <img [src]=\"camera.src\" class=\"img-box\"/>\n                </nb-card-body>\n              </nb-card>\n            </div>\n          </div>\n        </nb-tab>\n        <nb-tab tabTitle=\"КПП\">\n          <div class=\"row\">\n            <div class=\"col-lg-4 col-xl-3\" *ngFor=\"let camera of cameras \">\n              <nb-card size=\"small\" class=\"farseer-card \">\n                <nb-card-body class=\"farseer-card-body\">\n                  <a class=\"monitor-link\" [routerLink]=\"['/monitor', camera.id]\">\n                    <nb-icon class=\"monitor-icon\" icon=\"external-link\"></nb-icon>\n                  </a>\n                  <img [src]=\"camera.src\" class=\"img-box\"/>\n                </nb-card-body>\n              </nb-card>\n            </div>\n          </div>\n        </nb-tab>\n      </nb-tabset>\n    </nb-card-body>\n  </nb-card>\n\n\n\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/page/page.component.html":
+  /*!******************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/page/page.component.html ***!
+    \******************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesPagesPagePageComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<p>page works!</p>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/reports/reports.component.html":
+  /*!************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/reports/reports.component.html ***!
+    \************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesPagesReportsReportsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<nb-card>\n  <nb-card-body>\n\n    <table [nbTreeGrid]=\"source\">\n      <tr nbTreeGridHeaderRow *nbTreeGridHeaderRowDef=\"allColumns\"></tr>\n      <tr nbTreeGridRow *nbTreeGridRowDef=\"let row; columns: allColumns\"></tr>\n\n      <ng-container [nbTreeGridColumnDef]=\"customColumn\">\n        <th nbTreeGridHeaderCell *nbTreeGridHeaderCellDef>{{customColumn}}</th>\n        <td nbTreeGridCell *nbTreeGridCellDef=\"let row\">\n\n          <nb-tree-grid-row-toggle\n            [expanded]=\"row.expanded\"\n            *ngIf=\"row.data.kind === 'dir'\">\n          </nb-tree-grid-row-toggle>\n\n          {{row.data[customColumn]}}\n\n        </td>\n      </ng-container>\n\n      <ng-container *ngFor=\"let column of defaultColumns\" [nbTreeGridColumnDef]=\"column\">\n        <th nbTreeGridHeaderCell *nbTreeGridHeaderCellDef>{{column}}</th>\n        <td nbTreeGridCell *nbTreeGridCellDef=\"let row\">{{row.data[column] || '-'}}</td>\n      </ng-container>\n    </table>\n\n  </nb-card-body>\n</nb-card>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/statistics/statistics.component.html":
+  /*!******************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/statistics/statistics.component.html ***!
+    \******************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppFarseerModulesPagesStatisticsStatisticsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<nb-card>\n  <nb-card-body>\n\n    <table [nbTreeGrid]=\"dataSource\" [nbSort]=\"dataSource\" equalColumnsWidth>\n\n      <tr nbTreeGridHeaderRow *nbTreeGridHeaderRowDef=\"allColumns\"></tr>\n      <tr nbTreeGridRow *nbTreeGridRowDef=\"let row; columns: allColumns\"></tr>\n\n      <ng-container [nbTreeGridColumnDef]=\"customColumn\">\n\n        <th nbTreeGridHeaderCell *nbTreeGridHeaderCellDef nbSortHeader>\n          {{customColumn}}\n          <span *nbSortHeaderIcon=\"let asc = isAscending; let desc = isDescending\">\n                <span *ngIf=\"asc\" class=\"nb-chevron-down\" aria-label=\"sorted ascending\"></span>\n                <span *ngIf=\"desc\" class=\"nb-chevron-up\" aria-label=\"sorted descending\"></span>\n              </span>\n        </th>\n\n        <td nbTreeGridCell *nbTreeGridCellDef=\"let row\">\n          <button nbTreeGridRowToggle\n                  *ngIf=\"row.hasChildren()\"\n                  [attr.aria-label]=\"row.expanded ? 'collapse' : 'expand'\">\n                <span [ngClass]=\"{'nb-chevron-down': row.expanded, 'nb-chevron-right': !row.expanded}\"\n                      aria-hidden=\"true\">\n                </span>\n          </button>\n          {{row.data.name}}\n        </td>\n\n      </ng-container>\n\n      <ng-container *ngFor=\"let column of defaultColumns\" [nbTreeGridColumnDef]=\"column\">\n        <th nbTreeGridHeaderCell *nbTreeGridHeaderCellDef>{{column}}</th>\n        <td nbTreeGridCell *nbTreeGridCellDef=\"let row\">{{row.data[column]}}</td>\n      </ng-container>\n\n    </table>\n\n  </nb-card-body>\n</nb-card>\n";
     /***/
   },
 
@@ -661,22 +829,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       path: '',
       canActivate: [_services_auth_guard_service__WEBPACK_IMPORTED_MODULE_3__["AuthGuardService"]],
       loadChildren: function loadChildren() {
-        return __webpack_require__.e(
-        /*! import() | components-pages-pages-module */
-        "components-pages-pages-module").then(__webpack_require__.bind(null,
-        /*! ./components/pages/pages.module */
-        "./src/app/components/pages/pages.module.ts")).then(function (m) {
-          return m.NgxPagesModule;
+        return Promise.resolve().then(__webpack_require__.bind(null,
+        /*! ./farseer-modules/pages/pages.module */
+        "./src/app/farseer-modules/pages/pages.module.ts")).then(function (m) {
+          return m.FarseerPagesModule;
         });
       }
     }, {
       path: 'auth',
       loadChildren: function loadChildren() {
         return __webpack_require__.e(
-        /*! import() | components-auth-auth-module */
-        "components-auth-auth-module").then(__webpack_require__.bind(null,
-        /*! ./components/auth/auth.module */
-        "./src/app/components/auth/auth.module.ts")).then(function (m) {
+        /*! import() | farseer-modules-auth-auth-module */
+        "farseer-modules-auth-auth-module").then(__webpack_require__.bind(null,
+        /*! ./farseer-modules/auth/auth.module */
+        "./src/app/farseer-modules/auth/auth.module.ts")).then(function (m) {
           return m.NgxAuthModule;
         });
       }
@@ -687,7 +853,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, {
+        onSameUrlNavigation: 'reload'
+      })],
       exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
     })], AppRoutingModule);
     /***/
@@ -744,119 +912,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
 
-
-    var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @nebular/theme */
-    "./node_modules/@nebular/theme/fesm2015/index.js");
-    /* harmony import */
-
-
-    var _nebular_auth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! @nebular/auth */
-    "./node_modules/@nebular/auth/fesm2015/index.js");
-    /* harmony import */
-
-
-    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! @angular/router */
-    "./node_modules/@angular/router/fesm2015/router.js");
-
-    var AppComponent =
-    /*#__PURE__*/
-    function () {
-      function AppComponent(nbTokenService, sidebarService, router, menuService, authService) {
-        _classCallCheck(this, AppComponent);
-
-        this.nbTokenService = nbTokenService;
-        this.sidebarService = sidebarService;
-        this.router = router;
-        this.menuService = menuService;
-        this.authService = authService;
-        this.title = 'farseer';
-        this.items = [{
-          icon: 'menu'
-        }, {
-          title: 'Спостереження',
-          icon: {
-            icon: 'eye-outline',
-            pack: 'eva'
-          },
-          link: ['dashboard']
-        }, {
-          title: 'Статистика',
-          icon: {
-            icon: 'bar-chart-outline',
-            pack: 'eva'
-          },
-          link: ["home"]
-        }, {
-          title: 'Звіт',
-          icon: {
-            icon: 'file-text-outline',
-            pack: 'eva'
-          }
-        }, {
-          title: 'Вихід',
-          icon: 'log-out-outline'
-        }];
-        this.handleMenu();
-      }
-
-      _createClass(AppComponent, [{
-        key: "handleMenu",
-        value: function handleMenu() {
-          var _this = this;
-
-          this.menuService.onItemClick().subscribe(function (event) {
-            if (event.item.icon == "menu") {
-              _this.sidebarService.toggle(true, 'left');
-            }
-
-            if (event.item.title == "Вихід") {
-              _this.nbTokenService.clear();
-
-              _this.sidebarService.collapse('left');
-
-              _this.router.navigate(['auth/login']);
-            }
-          });
-          this.sowMenuOnLogin();
-        }
-      }, {
-        key: "sowMenuOnLogin",
-        value: function sowMenuOnLogin() {
-          var _this2 = this;
-
-          this.authService.onTokenChange().subscribe(function (token) {
-            if (token.isValid()) {
-              _this2.sidebarService.compact('left');
-            }
-          });
-          this.authService.getToken().subscribe(function (token) {
-            if (token.isValid()) {
-              _this2.sidebarService.compact('left');
-            }
-          });
-        }
-      }]);
-
-      return AppComponent;
-    }();
-
-    AppComponent.ctorParameters = function () {
-      return [{
-        type: _nebular_auth__WEBPACK_IMPORTED_MODULE_3__["NbTokenService"]
-      }, {
-        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbSidebarService"]
-      }, {
-        type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
-      }, {
-        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbMenuService"]
-      }, {
-        type: _nebular_auth__WEBPACK_IMPORTED_MODULE_3__["NbAuthService"]
-      }];
+    var AppComponent = function AppComponent() {
+      _classCallCheck(this, AppComponent);
     };
 
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -935,90 +993,1656 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _services_camera_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./../environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _services_camera_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./services/camera.service */
     "./src/app/services/camera.service.ts");
     /* harmony import */
 
 
-    var _helpers__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _helpers__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./helpers */
     "./src/app/helpers/index.ts");
     /* harmony import */
 
 
-    var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! @angular/platform-browser/animations */
     "./node_modules/@angular/platform-browser/fesm2015/animations.js");
     /* harmony import */
 
 
-    var _nebular_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! @nebular/theme */
     "./node_modules/@nebular/theme/fesm2015/index.js");
     /* harmony import */
 
 
-    var _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! @nebular/eva-icons */
     "./node_modules/@nebular/eva-icons/fesm2015/index.js");
     /* harmony import */
 
 
-    var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! @angular/cdk/layout */
     "./node_modules/@angular/cdk/esm2015/layout.js");
     /* harmony import */
 
 
-    var _nebular_auth__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    var _nebular_auth__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! @nebular/auth */
     "./node_modules/@nebular/auth/fesm2015/index.js");
     /* harmony import */
 
 
-    var _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./services/auth-guard.service */
-    "./src/app/services/auth-guard.service.ts"); // @ts-ignore
+    "./src/app/services/auth-guard.service.ts");
+    /* harmony import */
 
+
+    var _farseer_modules_pages_pages_module__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! ./farseer-modules/pages/pages.module */
+    "./src/app/farseer-modules/pages/pages.module.ts");
+    /* harmony import */
+
+
+    var _farseer_modules_menu_sidebar_left_sidebar_left_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./farseer-modules/menu/sidebar-left/sidebar-left.component */
+    "./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.ts");
+    /* harmony import */
+
+
+    var _farseer_modules_menu_sidebar_right_sidebar_right_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! ./farseer-modules/menu/sidebar-right/sidebar-right.component */
+    "./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"], _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_12__["LayoutModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbThemeModule"].forRoot({
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _farseer_modules_menu_sidebar_left_sidebar_left_component__WEBPACK_IMPORTED_MODULE_17__["SidebarLeftComponent"], _farseer_modules_menu_sidebar_right_sidebar_right_component__WEBPACK_IMPORTED_MODULE_18__["SidebarRightComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_10__["BrowserAnimationsModule"], _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_13__["LayoutModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbThemeModule"].forRoot({
         name: 'cosmic'
-      }), _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbLayoutModule"], _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_11__["NbEvaIconsModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbSidebarModule"].forRoot(), _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbIconModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbButtonModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbCardModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbMenuModule"].forRoot(), _nebular_theme__WEBPACK_IMPORTED_MODULE_10__["NbActionsModule"], _nebular_auth__WEBPACK_IMPORTED_MODULE_13__["NbAuthModule"].forRoot({
-        strategies: [_nebular_auth__WEBPACK_IMPORTED_MODULE_13__["NbPasswordAuthStrategy"].setup({
+      }), _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbLayoutModule"], _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_12__["NbEvaIconsModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbSidebarModule"].forRoot(), _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbIconModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbButtonModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbCardModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbMenuModule"].forRoot(), _nebular_theme__WEBPACK_IMPORTED_MODULE_11__["NbActionsModule"], _nebular_auth__WEBPACK_IMPORTED_MODULE_14__["NbAuthModule"].forRoot({
+        strategies: [_nebular_auth__WEBPACK_IMPORTED_MODULE_14__["NbPasswordAuthStrategy"].setup({
           name: 'email',
           token: {
-            class: _nebular_auth__WEBPACK_IMPORTED_MODULE_13__["NbAuthJWTToken"],
+            class: _nebular_auth__WEBPACK_IMPORTED_MODULE_14__["NbAuthJWTToken"],
             key: 'token'
           },
           baseEndpoint: '',
           login: {
             method: 'post',
-            endpoint: 'users/login'
+            redirect: {
+              success: 'monitoring',
+              failure: null
+            },
+            defaultErrors: ["Перевірте вірність вказаної пошти та паролю"],
+            endpoint: _environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].loginEndpoint
+          },
+          logout: {
+            endpoint: _environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].logoutEndpoint
           }
         })],
         forms: {
           login: {
             redirectDelay: 0,
             showMessages: {
-              success: true
+              success: false
             }
           }
         }
-      })],
-      providers: [_services_camera_service__WEBPACK_IMPORTED_MODULE_7__["CameraService"], {
+      }), _farseer_modules_pages_pages_module__WEBPACK_IMPORTED_MODULE_16__["FarseerPagesModule"]],
+      providers: [_services_camera_service__WEBPACK_IMPORTED_MODULE_8__["CameraService"], {
         provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
-        useClass: _helpers__WEBPACK_IMPORTED_MODULE_8__["ApiPathInterceptor"],
+        useClass: _helpers__WEBPACK_IMPORTED_MODULE_9__["ApiPathInterceptor"],
         multi: true
-      }, _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_14__["AuthGuardService"]],
+      }, _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_15__["AuthGuardService"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })], AppModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.scss":
+  /*!*******************************************************************************!*\
+    !*** ./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.scss ***!
+    \*******************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesMenuSidebarLeftSidebarLeftComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9tZW51L3NpZGViYXItbGVmdC9zaWRlYmFyLWxlZnQuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.ts":
+  /*!*****************************************************************************!*\
+    !*** ./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.ts ***!
+    \*****************************************************************************/
+
+  /*! exports provided: SidebarLeftComponent */
+
+  /***/
+  function srcAppFarseerModulesMenuSidebarLeftSidebarLeftComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SidebarLeftComponent", function () {
+      return SidebarLeftComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _nebular_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @nebular/auth */
+    "./node_modules/@nebular/auth/fesm2015/index.js");
+    /* harmony import */
+
+
+    var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/cdk/layout */
+    "./node_modules/@angular/cdk/esm2015/layout.js");
+    /* harmony import */
+
+
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @nebular/theme */
+    "./node_modules/@nebular/theme/fesm2015/index.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var SidebarLeftComponent =
+    /*#__PURE__*/
+    function () {
+      function SidebarLeftComponent(nbTokenService, breakpointObserver, sidebarService, router, menuService, authService) {
+        _classCallCheck(this, SidebarLeftComponent);
+
+        this.nbTokenService = nbTokenService;
+        this.breakpointObserver = breakpointObserver;
+        this.sidebarService = sidebarService;
+        this.router = router;
+        this.menuService = menuService;
+        this.authService = authService;
+        this.menuItems = [{
+          icon: 'menu'
+        }, {
+          title: 'Спостереження',
+          icon: {
+            icon: 'eye-outline',
+            pack: 'eva'
+          },
+          link: ["monitoring"]
+        }, {
+          title: 'Статистика',
+          icon: {
+            icon: 'bar-chart-outline',
+            pack: 'eva'
+          },
+          link: ['statistics']
+        }, {
+          title: 'Звіт',
+          icon: {
+            icon: 'file-text-outline',
+            pack: 'eva'
+          },
+          link: ["reports"]
+        }, {
+          title: 'Вихід',
+          icon: 'log-out-outline'
+        }];
+      }
+
+      _createClass(SidebarLeftComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.authHandling();
+          this.handleMenu();
+        }
+      }, {
+        key: "handleMenu",
+        value: function handleMenu() {
+          var _this = this;
+
+          this.menuService.onItemClick().subscribe(function (event) {
+            if (event.item.icon == "menu") {
+              _this.sidebarService.toggle(true, 'left');
+            }
+
+            if (event.item.title == "Вихід") {
+              _this.nbTokenService.clear();
+
+              _this.router.navigate(['auth/login']);
+            }
+          });
+        }
+      }, {
+        key: "authHandling",
+        value: function authHandling() {
+          var _this2 = this;
+
+          this.authService.onTokenChange().subscribe(function (token) {
+            if (token.isValid()) {
+              _this2.sidebarService.compact('left');
+            }
+          });
+          this.authService.onAuthenticationChange().subscribe(function (value) {
+            if (!value) {
+              _this2.sidebarService.collapse('left');
+            } else {
+              _this2.sidebarService.compact('left');
+            }
+          });
+        }
+      }]);
+
+      return SidebarLeftComponent;
+    }();
+
+    SidebarLeftComponent.ctorParameters = function () {
+      return [{
+        type: _nebular_auth__WEBPACK_IMPORTED_MODULE_2__["NbTokenService"]
+      }, {
+        type: _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__["BreakpointObserver"]
+      }, {
+        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_4__["NbSidebarService"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]
+      }, {
+        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_4__["NbMenuService"]
+      }, {
+        type: _nebular_auth__WEBPACK_IMPORTED_MODULE_2__["NbAuthService"]
+      }];
+    };
+
+    SidebarLeftComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-sidebar-left',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./sidebar-left.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./sidebar-left.component.scss */
+      "./src/app/farseer-modules/menu/sidebar-left/sidebar-left.component.scss")).default]
+    })], SidebarLeftComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.scss":
+  /*!*********************************************************************************!*\
+    !*** ./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.scss ***!
+    \*********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesMenuSidebarRightSidebarRightComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9tZW51L3NpZGViYXItcmlnaHQvc2lkZWJhci1yaWdodC5jb21wb25lbnQuc2NzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.ts":
+  /*!*******************************************************************************!*\
+    !*** ./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.ts ***!
+    \*******************************************************************************/
+
+  /*! exports provided: SidebarRightComponent */
+
+  /***/
+  function srcAppFarseerModulesMenuSidebarRightSidebarRightComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SidebarRightComponent", function () {
+      return SidebarRightComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _nebular_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @nebular/auth */
+    "./node_modules/@nebular/auth/fesm2015/index.js");
+    /* harmony import */
+
+
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @nebular/theme */
+    "./node_modules/@nebular/theme/fesm2015/index.js");
+
+    var SidebarRightComponent =
+    /*#__PURE__*/
+    function () {
+      function SidebarRightComponent(sidebarService, authService) {
+        _classCallCheck(this, SidebarRightComponent);
+
+        this.sidebarService = sidebarService;
+        this.authService = authService;
+      }
+
+      _createClass(SidebarRightComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.authHandling();
+        }
+      }, {
+        key: "authHandling",
+        value: function authHandling() {
+          var _this3 = this;
+
+          this.authService.onTokenChange().subscribe(function (token) {
+            if (token.isValid()) {
+              _this3.sidebarService.expand('right');
+            }
+          });
+          this.authService.onAuthenticationChange().subscribe(function (value) {
+            if (!value) {
+              _this3.sidebarService.collapse('right');
+            } else {
+              _this3.sidebarService.expand('right');
+            }
+          });
+        }
+      }]);
+
+      return SidebarRightComponent;
+    }();
+
+    SidebarRightComponent.ctorParameters = function () {
+      return [{
+        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_3__["NbSidebarService"]
+      }, {
+        type: _nebular_auth__WEBPACK_IMPORTED_MODULE_2__["NbAuthService"]
+      }];
+    };
+
+    SidebarRightComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-sidebar-right',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./sidebar-right.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./sidebar-right.component.scss */
+      "./src/app/farseer-modules/menu/sidebar-right/sidebar-right.component.scss")).default]
+    })], SidebarRightComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/camera.cart.scss":
+  /*!********************************************************!*\
+    !*** ./src/app/farseer-modules/pages/camera.cart.scss ***!
+    \********************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesCameraCartScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".img-box {\n  width: 100%;\n  height: 300px;\n}\n\n.monitor-link {\n  position: absolute;\n  height: 40px;\n  top: 8px;\n  right: 8px;\n}\n\n.farseer-card {\n  height: auto !important;\n  margin-bottom: 8px;\n}\n\n.farseer-card-body {\n  position: relative;\n  padding: 8px 8px 2px 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9jYW1lcmEuY2FydC5zY3NzIiwic3JjL2FwcC9mYXJzZWVyLW1vZHVsZXMvcGFnZXMvY2FtZXJhLmNhcnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLFdBQUE7RUFDQSxhQUFBO0FDQUY7O0FER0E7RUFDRSxrQkFBQTtFQUNBLFlBQUE7RUFDQSxRQUFBO0VBQ0EsVUFBQTtBQ0FGOztBREdBO0VBQ0UsdUJBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREdBO0VBQ0Usa0JBQUE7RUFFQSx3QkFBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvZmFyc2Vlci1tb2R1bGVzL3BhZ2VzL2NhbWVyYS5jYXJ0LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5pbWctYm94IHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMzAwcHg7XG59XG5cbi5tb25pdG9yLWxpbmsge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGhlaWdodDogNDBweDtcbiAgdG9wOiA4cHg7XG4gIHJpZ2h0OiA4cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQge1xuICBoZWlnaHQ6IGF1dG8gIWltcG9ydGFudDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZmFyc2Vlci1jYXJkLWJvZHkge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gLy8gbWFyZ2luOiAwIGF1dG87XG4gIHBhZGRpbmc6IDhweCA4cHggMnB4IDhweDtcbn1cblxuIiwiLmltZy1ib3gge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAzMDBweDtcbn1cblxuLm1vbml0b3ItbGluayB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgaGVpZ2h0OiA0MHB4O1xuICB0b3A6IDhweDtcbiAgcmlnaHQ6IDhweDtcbn1cblxuLmZhcnNlZXItY2FyZCB7XG4gIGhlaWdodDogYXV0byAhaW1wb3J0YW50O1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG5cbi5mYXJzZWVyLWNhcmQtYm9keSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgcGFkZGluZzogOHB4IDhweCAycHggOHB4O1xufSJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/contravention/contravention.component.scss":
+  /*!**********************************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/contravention/contravention.component.scss ***!
+    \**********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesContraventionContraventionComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".type-label {\n  padding: 8px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9jb250cmF2ZW50aW9uL2NvbnRyYXZlbnRpb24uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9jb250cmF2ZW50aW9uL2NvbnRyYXZlbnRpb24uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBYSxZQUFBO0FDRWIiLCJmaWxlIjoic3JjL2FwcC9mYXJzZWVyLW1vZHVsZXMvcGFnZXMvY29udHJhdmVudGlvbi9jb250cmF2ZW50aW9uLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnR5cGUtbGFiZWx7IHBhZGRpbmc6IDhweDt9XG4iLCIudHlwZS1sYWJlbCB7XG4gIHBhZGRpbmc6IDhweDtcbn0iXX0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/contravention/contravention.component.ts":
+  /*!********************************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/contravention/contravention.component.ts ***!
+    \********************************************************************************/
+
+  /*! exports provided: ContraventionComponent */
+
+  /***/
+  function srcAppFarseerModulesPagesContraventionContraventionComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ContraventionComponent", function () {
+      return ContraventionComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var ContraventionComponent =
+    /*#__PURE__*/
+    function () {
+      function ContraventionComponent() {
+        _classCallCheck(this, ContraventionComponent);
+
+        this.contraventions = [{
+          type: 'без шолому',
+          date: 'Пн',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без окулярів',
+          date: 'Пт',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без шолому',
+          date: 'Пн',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без окулярів',
+          date: 'Пт',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без окулярів',
+          date: 'Чт',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без окулярів',
+          date: 'Чт',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без шолому',
+          date: 'Вт',
+          decription: "ЦЕХ1"
+        }, {
+          type: 'без окулярів',
+          date: 'СР',
+          decription: "ЦЕХ1"
+        }];
+      }
+
+      _createClass(ContraventionComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return ContraventionComponent;
+    }();
+
+    ContraventionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-contravention',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./contravention.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/contravention/contravention.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./contravention.component.scss */
+      "./src/app/farseer-modules/pages/contravention/contravention.component.scss")).default]
+    })], ContraventionComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/monitor/monitor.component.scss":
+  /*!**********************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/monitor/monitor.component.scss ***!
+    \**********************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesMonitorMonitorComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".img-monitor {\n  width: 100%;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9tb25pdG9yL21vbml0b3IuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9tb25pdG9yL21vbml0b3IuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFRSxXQUFBO0VBQ0EsWUFBQTtBQ0FGIiwiZmlsZSI6InNyYy9hcHAvZmFyc2Vlci1tb2R1bGVzL3BhZ2VzL21vbml0b3IvbW9uaXRvci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbWctbW9uaXRvciB7XG5cbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTAwJTtcbn1cbiIsIi5pbWctbW9uaXRvciB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59Il19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/monitor/monitor.component.ts":
+  /*!********************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/monitor/monitor.component.ts ***!
+    \********************************************************************/
+
+  /*! exports provided: MonitorComponent */
+
+  /***/
+  function srcAppFarseerModulesPagesMonitorMonitorComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "MonitorComponent", function () {
+      return MonitorComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/platform-browser */
+    "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+    /* harmony import */
+
+
+    var rxjs_webSocket__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! rxjs/webSocket */
+    "./node_modules/rxjs/_esm2015/webSocket/index.js");
+    /* harmony import */
+
+
+    var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../../../../environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @angular/cdk/layout */
+    "./node_modules/@angular/cdk/esm2015/layout.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _nebular_auth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @nebular/auth */
+    "./node_modules/@nebular/auth/fesm2015/index.js");
+
+    var MonitorComponent =
+    /*#__PURE__*/
+    function () {
+      function MonitorComponent(sanitizer, nbTokenService, breakpointObserver, route) {
+        _classCallCheck(this, MonitorComponent);
+
+        this.sanitizer = sanitizer;
+        this.nbTokenService = nbTokenService;
+        this.breakpointObserver = breakpointObserver;
+        this.route = route;
+        this.safeSrc = "assets/Group 28.png";
+      }
+
+      _createClass(MonitorComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.id = this.route.snapshot.params.id; //this.name = this.route.snapshot.params.id;
+
+          this.startSocket(this.id);
+        }
+      }, {
+        key: "startSocket",
+        value: function startSocket(id) {
+          var _this4 = this;
+
+          this.WebSocketSubject = Object(rxjs_webSocket__WEBPACK_IMPORTED_MODULE_3__["webSocket"])({
+            url: _environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].cameraURLWS(id, 900, 600),
+            deserializer: function deserializer(msg) {
+              return msg.data;
+            },
+            openObserver: {
+              next: function next() {
+                console.log('connetion ok');
+              }
+            }
+          });
+          this.WebSocketSubject.subscribe(function (msg) {
+            // console.log('success')
+            _this4.safeSrc = _this4.sanitizer.bypassSecurityTrustResourceUrl(window.URL.createObjectURL(msg));
+          }, // Called whenever there is a message from the server.
+          // Called whenever there is a message from the server.
+          function (err) {
+            return console.log(err);
+          }, // Called if at any point WebSocket API signals some kind of error.
+          function () {
+            return console.log('complete');
+          } // Called when connection is closed (for whatever reason).
+          ); // this.WebSocketSubject.next({message: this.nbTokenService.get()});
+        }
+      }, {
+        key: "ngOnDestroy",
+        value: function ngOnDestroy() {
+          this.WebSocketSubject.c;
+        }
+      }]);
+
+      return MonitorComponent;
+    }();
+
+    MonitorComponent.ctorParameters = function () {
+      return [{
+        type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]
+      }, {
+        type: _nebular_auth__WEBPACK_IMPORTED_MODULE_7__["NbTokenService"]
+      }, {
+        type: _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_5__["BreakpointObserver"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_6__["ActivatedRoute"]
+      }];
+    };
+
+    MonitorComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-monitor',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./monitor.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/monitor/monitor.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./monitor.component.scss */
+      "./src/app/farseer-modules/pages/monitor/monitor.component.scss")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ../camera.cart.scss */
+      "./src/app/farseer-modules/pages/camera.cart.scss")).default]
+    })], MonitorComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/monitoring/monitoring.component.scss":
+  /*!****************************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/monitoring/monitoring.component.scss ***!
+    \****************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesMonitoringMonitoringComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ":host {\n  padding: 1rem !important;\n}\n\n.img-box {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.monitor-link {\n  float: right;\n}\n\n.fixed-header {\n  position: fixed;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2dhbHluYS9wcm9qZWN0cy9saW1waWQvZmFyc2Vlci1mcm9udGVuZC9zcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9tb25pdG9yaW5nL21vbml0b3JpbmcuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9tb25pdG9yaW5nL21vbml0b3JpbmcuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx3QkFBQTtBQ0NGOztBRENBO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0FDRUY7O0FEQ0E7RUFDRSxZQUFBO0FDRUY7O0FEQUE7RUFDRSxlQUFBO0FDR0YiLCJmaWxlIjoic3JjL2FwcC9mYXJzZWVyLW1vZHVsZXMvcGFnZXMvbW9uaXRvcmluZy9tb25pdG9yaW5nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3Qge1xuICBwYWRkaW5nIDogMXJlbSAhaW1wb3J0YW50O1xufVxuLmltZy1ib3gge1xuICBtYXgtd2lkdGg6IDEwMCU7XG4gIG1heC1oZWlnaHQ6IDEwMCU7XG59XG5cbi5tb25pdG9yLWxpbmsge1xuICBmbG9hdDogcmlnaHRcbn1cbi5maXhlZC1oZWFkZXJ7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbn1cbiIsIjpob3N0IHtcbiAgcGFkZGluZzogMXJlbSAhaW1wb3J0YW50O1xufVxuXG4uaW1nLWJveCB7XG4gIG1heC13aWR0aDogMTAwJTtcbiAgbWF4LWhlaWdodDogMTAwJTtcbn1cblxuLm1vbml0b3ItbGluayB7XG4gIGZsb2F0OiByaWdodDtcbn1cblxuLmZpeGVkLWhlYWRlciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbn0iXX0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/monitoring/monitoring.component.ts":
+  /*!**************************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/monitoring/monitoring.component.ts ***!
+    \**************************************************************************/
+
+  /*! exports provided: MonitoringComponent */
+
+  /***/
+  function srcAppFarseerModulesPagesMonitoringMonitoringComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "MonitoringComponent", function () {
+      return MonitoringComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! rxjs */
+    "./node_modules/rxjs/_esm2015/index.js");
+
+    var MonitoringComponent =
+    /*#__PURE__*/
+    function () {
+      function MonitoringComponent() {
+        _classCallCheck(this, MonitoringComponent);
+
+        this.disabledIconConfig = {
+          icon: 'grid',
+          pack: 'eva'
+        };
+        this.monitors = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"]([]);
+        this.camerasSource = [{
+          description: 'Цех 1',
+          id: "1",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 2',
+          id: "2",
+          src: "assets/test2.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 3',
+          id: "3",
+          src: "assets/test3.jpeg"
+        }, {
+          description: 'Цех 4',
+          id: "1",
+          src: "assets/test5.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 5',
+          id: "0",
+          src: "assets/test4.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 6',
+          id: "0",
+          src: "assets/test6.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 6',
+          id: "0",
+          src: "assets/test5.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 7',
+          id: "0",
+          src: "assets/test4.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 8',
+          id: "0",
+          src: "assets/test7.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 9',
+          id: "0",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 10',
+          id: "0",
+          src: "assets/test2.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 11',
+          id: "0",
+          src: "assets/test3.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 12',
+          id: "0",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 13',
+          id: "0",
+          src: "assets/test4.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 14',
+          id: "0",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 15',
+          id: "0",
+          src: "assets/test6.jpeg"
+        }, {
+          description: 'Цех 16',
+          id: "0",
+          src: "assets/test7.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 17',
+          id: "0",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 18',
+          id: "0",
+          src: "assets/test1.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 19',
+          id: "0",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 20',
+          id: "0",
+          src: "assets/test2.jpeg"
+        }, {
+          description: 'Цех 21',
+          id: "0",
+          src: "assets/test.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 22',
+          id: "0",
+          src: "assets/test3.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 23',
+          id: "0",
+          src: "assets/test4.jpeg",
+          selected: false
+        }, {
+          description: 'Цех 24',
+          id: "0",
+          src: "assets/test5.jpeg"
+        }, {
+          description: 'Цех 25',
+          id: "0",
+          src: "assets/test6.jpeg",
+          selected: false
+        }];
+      }
+
+      _createClass(MonitoringComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.cameras = this.camerasSource;
+        }
+      }, {
+        key: "handleTabSelection",
+        value: function handleTabSelection($event) {}
+      }]);
+
+      return MonitoringComponent;
+    }();
+
+    MonitoringComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-monitoring',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./monitoring.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/monitoring/monitoring.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./monitoring.component.scss */
+      "./src/app/farseer-modules/pages/monitoring/monitoring.component.scss")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ../camera.cart.scss */
+      "./src/app/farseer-modules/pages/camera.cart.scss")).default]
+    })], MonitoringComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/page/page.component.scss":
+  /*!****************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/page/page.component.scss ***!
+    \****************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesPagePageComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9wYWdlL3BhZ2UuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/page/page.component.ts":
+  /*!**************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/page/page.component.ts ***!
+    \**************************************************************/
+
+  /*! exports provided: PageComponent */
+
+  /***/
+  function srcAppFarseerModulesPagesPagePageComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PageComponent", function () {
+      return PageComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var PageComponent =
+    /*#__PURE__*/
+    function () {
+      function PageComponent() {
+        _classCallCheck(this, PageComponent);
+      }
+
+      _createClass(PageComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return PageComponent;
+    }();
+
+    PageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-page',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./page.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/page/page.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./page.component.scss */
+      "./src/app/farseer-modules/pages/page/page.component.scss")).default]
+    })], PageComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/pages-routing.module.ts":
+  /*!***************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/pages-routing.module.ts ***!
+    \***************************************************************/
+
+  /*! exports provided: routes, NgxPagesRoutingModule */
+
+  /***/
+  function srcAppFarseerModulesPagesPagesRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "routes", function () {
+      return routes;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "NgxPagesRoutingModule", function () {
+      return NgxPagesRoutingModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _monitoring_monitoring_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./monitoring/monitoring.component */
+    "./src/app/farseer-modules/pages/monitoring/monitoring.component.ts");
+    /* harmony import */
+
+
+    var _monitor_monitor_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./monitor/monitor.component */
+    "./src/app/farseer-modules/pages/monitor/monitor.component.ts");
+    /* harmony import */
+
+
+    var _statistics_statistics_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./statistics/statistics.component */
+    "./src/app/farseer-modules/pages/statistics/statistics.component.ts");
+    /* harmony import */
+
+
+    var _reports_reports_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./reports/reports.component */
+    "./src/app/farseer-modules/pages/reports/reports.component.ts");
+
+    var routes = [{
+      path: '',
+      component: _monitoring_monitoring_component__WEBPACK_IMPORTED_MODULE_3__["MonitoringComponent"]
+    }, {
+      path: 'monitoring',
+      component: _monitoring_monitoring_component__WEBPACK_IMPORTED_MODULE_3__["MonitoringComponent"]
+    }, {
+      path: 'monitor/:id',
+      component: _monitor_monitor_component__WEBPACK_IMPORTED_MODULE_4__["MonitorComponent"]
+    }, {
+      path: 'statistics',
+      component: _statistics_statistics_component__WEBPACK_IMPORTED_MODULE_5__["StatisticsComponent"]
+    }, {
+      path: 'reports',
+      component: _reports_reports_component__WEBPACK_IMPORTED_MODULE_6__["ReportsComponent"]
+    }];
+
+    var NgxPagesRoutingModule = function NgxPagesRoutingModule() {
+      _classCallCheck(this, NgxPagesRoutingModule);
+    };
+
+    NgxPagesRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })], NgxPagesRoutingModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/pages.module.ts":
+  /*!*******************************************************!*\
+    !*** ./src/app/farseer-modules/pages/pages.module.ts ***!
+    \*******************************************************/
+
+  /*! exports provided: FarseerPagesModule */
+
+  /***/
+  function srcAppFarseerModulesPagesPagesModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "FarseerPagesModule", function () {
+      return FarseerPagesModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/forms */
+    "./node_modules/@angular/forms/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _pages_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./pages-routing.module */
+    "./src/app/farseer-modules/pages/pages-routing.module.ts");
+    /* harmony import */
+
+
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! @nebular/theme */
+    "./node_modules/@nebular/theme/fesm2015/index.js");
+    /* harmony import */
+
+
+    var _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @nebular/eva-icons */
+    "./node_modules/@nebular/eva-icons/fesm2015/index.js");
+    /* harmony import */
+
+
+    var _monitoring_monitoring_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! ./monitoring/monitoring.component */
+    "./src/app/farseer-modules/pages/monitoring/monitoring.component.ts");
+    /* harmony import */
+
+
+    var _statistics_statistics_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./statistics/statistics.component */
+    "./src/app/farseer-modules/pages/statistics/statistics.component.ts");
+    /* harmony import */
+
+
+    var _reports_reports_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./reports/reports.component */
+    "./src/app/farseer-modules/pages/reports/reports.component.ts");
+    /* harmony import */
+
+
+    var _monitor_monitor_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ./monitor/monitor.component */
+    "./src/app/farseer-modules/pages/monitor/monitor.component.ts");
+    /* harmony import */
+
+
+    var _contravention_contravention_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ./contravention/contravention.component */
+    "./src/app/farseer-modules/pages/contravention/contravention.component.ts");
+    /* harmony import */
+
+
+    var _page_page_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./page/page.component */
+    "./src/app/farseer-modules/pages/page/page.component.ts");
+
+    var FarseerPagesModule = function FarseerPagesModule() {
+      _classCallCheck(this, FarseerPagesModule);
+    };
+
+    FarseerPagesModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"], _pages_routing_module__WEBPACK_IMPORTED_MODULE_5__["NgxPagesRoutingModule"], _nebular_eva_icons__WEBPACK_IMPORTED_MODULE_7__["NbEvaIconsModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbIconModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbButtonModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbCardModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbActionsModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbTreeGridModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbCheckboxModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbAlertModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbLayoutModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbTabsetModule"], _nebular_theme__WEBPACK_IMPORTED_MODULE_6__["NbListModule"]],
+      exports: [_contravention_contravention_component__WEBPACK_IMPORTED_MODULE_12__["ContraventionComponent"]],
+      declarations: [_monitoring_monitoring_component__WEBPACK_IMPORTED_MODULE_8__["MonitoringComponent"], _statistics_statistics_component__WEBPACK_IMPORTED_MODULE_9__["StatisticsComponent"], _reports_reports_component__WEBPACK_IMPORTED_MODULE_10__["ReportsComponent"], _monitor_monitor_component__WEBPACK_IMPORTED_MODULE_11__["MonitorComponent"], _contravention_contravention_component__WEBPACK_IMPORTED_MODULE_12__["ContraventionComponent"], _page_page_component__WEBPACK_IMPORTED_MODULE_13__["PageComponent"]]
+    })], FarseerPagesModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/reports/reports.component.scss":
+  /*!**********************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/reports/reports.component.scss ***!
+    \**********************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesReportsReportsComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9yZXBvcnRzL3JlcG9ydHMuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/reports/reports.component.ts":
+  /*!********************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/reports/reports.component.ts ***!
+    \********************************************************************/
+
+  /*! exports provided: ReportsComponent */
+
+  /***/
+  function srcAppFarseerModulesPagesReportsReportsComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ReportsComponent", function () {
+      return ReportsComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @nebular/theme */
+    "./node_modules/@nebular/theme/fesm2015/index.js");
+
+    var ReportsComponent =
+    /*#__PURE__*/
+    function () {
+      function ReportsComponent(dataSourceBuilder) {
+        _classCallCheck(this, ReportsComponent);
+
+        this.customColumn = 'name';
+        this.defaultColumns = ['size', 'kind', 'items'];
+        this.allColumns = [this.customColumn].concat(_toConsumableArray(this.defaultColumns));
+        this.data = [{
+          name: 'Projects',
+          size: '1.8 MB',
+          items: 5,
+          kind: 'dir',
+          expanded: true,
+          childEntries: [{
+            name: 'project-1.doc',
+            kind: 'doc',
+            size: '240 KB'
+          }, {
+            name: 'project-2.doc',
+            kind: 'doc',
+            size: '290 KB'
+          }, {
+            name: 'project-3',
+            kind: 'dir',
+            size: '466 KB',
+            items: 3,
+            childEntries: [{
+              name: 'project-3A.doc',
+              kind: 'doc',
+              size: '200 KB'
+            }, {
+              name: 'project-3B.doc',
+              kind: 'doc',
+              size: '266 KB'
+            }, {
+              name: 'project-3C.doc',
+              kind: 'doc',
+              size: '0'
+            }]
+          }, {
+            name: 'project-4.docx',
+            kind: 'docx',
+            size: '900 KB'
+          }]
+        }, {
+          name: 'Reports',
+          kind: 'dir',
+          size: '400 KB',
+          items: 2,
+          childEntries: [{
+            name: 'Report 1',
+            kind: 'dir',
+            size: '100 KB',
+            items: 1,
+            childEntries: [{
+              name: 'report-1.doc',
+              kind: 'doc',
+              size: '100 KB'
+            }]
+          }, {
+            name: 'Report 2',
+            kind: 'dir',
+            size: '300 KB',
+            items: 2,
+            childEntries: [{
+              name: 'report-2.doc',
+              kind: 'doc',
+              size: '290 KB'
+            }, {
+              name: 'report-2-note.txt',
+              kind: 'txt',
+              size: '10 KB'
+            }]
+          }]
+        }, {
+          name: 'Other',
+          kind: 'dir',
+          size: '109 MB',
+          items: 2,
+          childEntries: [{
+            name: 'backup.bkp',
+            kind: 'bkp',
+            size: '107 MB'
+          }, {
+            name: 'secret-note.txt',
+            kind: 'txt',
+            size: '2 MB'
+          }]
+        }];
+        var getters = {
+          dataGetter: function dataGetter(node) {
+            return node;
+          },
+          childrenGetter: function childrenGetter(node) {
+            return node.childEntries || undefined;
+          },
+          expandedGetter: function expandedGetter(node) {
+            return !!node.expanded;
+          }
+        };
+        this.source = dataSourceBuilder.create(this.data, getters);
+      }
+
+      _createClass(ReportsComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return ReportsComponent;
+    }();
+
+    ReportsComponent.ctorParameters = function () {
+      return [{
+        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbTreeGridDataSourceBuilder"]
+      }];
+    };
+
+    ReportsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-reports',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./reports.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/reports/reports.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./reports.component.scss */
+      "./src/app/farseer-modules/pages/reports/reports.component.scss")).default]
+    })], ReportsComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/statistics/statistics.component.scss":
+  /*!****************************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/statistics/statistics.component.scss ***!
+    \****************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppFarseerModulesPagesStatisticsStatisticsComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZhcnNlZXItbW9kdWxlcy9wYWdlcy9zdGF0aXN0aWNzL3N0YXRpc3RpY3MuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/farseer-modules/pages/statistics/statistics.component.ts":
+  /*!**************************************************************************!*\
+    !*** ./src/app/farseer-modules/pages/statistics/statistics.component.ts ***!
+    \**************************************************************************/
+
+  /*! exports provided: StatisticsComponent */
+
+  /***/
+  function srcAppFarseerModulesPagesStatisticsStatisticsComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "StatisticsComponent", function () {
+      return StatisticsComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @nebular/theme */
+    "./node_modules/@nebular/theme/fesm2015/index.js");
+
+    var StatisticsComponent =
+    /*#__PURE__*/
+    function () {
+      function StatisticsComponent(dataSourceBuilder) {
+        _classCallCheck(this, StatisticsComponent);
+
+        this.customColumn = 'name';
+        this.defaultColumns = ['size', 'kind', 'items'];
+        this.allColumns = [this.customColumn].concat(_toConsumableArray(this.defaultColumns));
+        this.data = [{
+          data: {
+            name: 'Projects',
+            size: '1.8 MB',
+            items: 5,
+            kind: 'dir'
+          },
+          children: [{
+            data: {
+              name: 'project-1.doc',
+              kind: 'doc',
+              size: '240 KB'
+            }
+          }, {
+            data: {
+              name: 'project-2.doc',
+              kind: 'doc',
+              size: '290 KB'
+            }
+          }, {
+            data: {
+              name: 'project-3',
+              kind: 'dir',
+              size: '466 KB',
+              items: 3
+            },
+            children: [{
+              data: {
+                name: 'project-3A.doc',
+                kind: 'doc',
+                size: '200 KB'
+              }
+            }, {
+              data: {
+                name: 'project-3B.doc',
+                kind: 'doc',
+                size: '266 KB'
+              }
+            }, {
+              data: {
+                name: 'project-3C.doc',
+                kind: 'doc',
+                size: '0'
+              }
+            }]
+          }, {
+            data: {
+              name: 'project-4.docx',
+              kind: 'docx',
+              size: '900 KB'
+            }
+          }]
+        }, {
+          data: {
+            name: 'Reports',
+            kind: 'dir',
+            size: '400 KB',
+            items: 2
+          },
+          children: [{
+            data: {
+              name: 'Report 1',
+              kind: 'dir',
+              size: '100 KB',
+              items: 1
+            },
+            children: [{
+              data: {
+                name: 'report-1.doc',
+                kind: 'doc',
+                size: '100 KB'
+              }
+            }]
+          }, {
+            data: {
+              name: 'Report 2',
+              kind: 'dir',
+              size: '300 KB',
+              items: 2
+            },
+            children: [{
+              data: {
+                name: 'report-2.doc',
+                kind: 'doc',
+                size: '290 KB'
+              }
+            }, {
+              data: {
+                name: 'report-2-note.txt',
+                kind: 'txt',
+                size: '10 KB'
+              }
+            }]
+          }]
+        }, {
+          data: {
+            name: 'Other',
+            kind: 'dir',
+            size: '109 MB',
+            items: 2
+          },
+          children: [{
+            data: {
+              name: 'backup.bkp',
+              kind: 'bkp',
+              size: '107 MB'
+            }
+          }, {
+            data: {
+              name: 'secret-note.txt',
+              kind: 'txt',
+              size: '2 MB'
+            }
+          }]
+        }];
+        this.dataSource = dataSourceBuilder.create(this.data);
+      }
+
+      _createClass(StatisticsComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return StatisticsComponent;
+    }();
+
+    StatisticsComponent.ctorParameters = function () {
+      return [{
+        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbTreeGridDataSourceBuilder"]
+      }];
+    };
+
+    StatisticsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-statistics',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./statistics.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/farseer-modules/pages/statistics/statistics.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./statistics.component.scss */
+      "./src/app/farseer-modules/pages/statistics/statistics.component.scss")).default]
+    })], StatisticsComponent);
     /***/
   },
 
@@ -1169,25 +2793,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! rxjs/operators */
     "./node_modules/rxjs/_esm2015/operators/index.js");
+    /* harmony import */
+
+
+    var _nebular_theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @nebular/theme */
+    "./node_modules/@nebular/theme/fesm2015/index.js");
 
     var AuthGuardService =
     /*#__PURE__*/
     function () {
-      function AuthGuardService(authService, router) {
+      function AuthGuardService(authService, sidebarService, router) {
         _classCallCheck(this, AuthGuardService);
 
         this.authService = authService;
+        this.sidebarService = sidebarService;
         this.router = router;
       }
 
       _createClass(AuthGuardService, [{
         key: "canActivate",
         value: function canActivate() {
-          var _this3 = this;
+          var _this5 = this;
 
           return this.authService.isAuthenticated().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (authenticated) {
             if (!authenticated) {
-              _this3.router.navigate(['auth/login']);
+              _this5.sidebarService.collapse('left');
+
+              _this5.router.navigate(['auth/login']);
             }
           }));
         }
@@ -1199,6 +2832,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     AuthGuardService.ctorParameters = function () {
       return [{
         type: _nebular_auth__WEBPACK_IMPORTED_MODULE_3__["NbAuthService"]
+      }, {
+        type: _nebular_theme__WEBPACK_IMPORTED_MODULE_5__["NbSidebarService"]
       }, {
         type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
       }];
@@ -1244,13 +2879,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./../../environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common/http */
     "./node_modules/@angular/common/fesm2015/http.js");
     /* harmony import */
 
 
-    var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! rxjs */
     "./node_modules/rxjs/_esm2015/index.js");
 
@@ -1261,30 +2902,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, CameraService);
 
         this.http = http;
-        this._todos = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]([]);
-        this.baseUrl = 'cameras';
+        this._cameras = new rxjs__WEBPACK_IMPORTED_MODULE_4__["BehaviorSubject"]([]);
         this.dataStore = {
-          todos: []
+          cameras: []
         };
-        this.todos = this._todos.asObservable();
+        this.cameras = this._cameras.asObservable();
       }
 
       _createClass(CameraService, [{
-        key: "getCameras",
-        value: function getCameras() {
-          return this.http.get('cameras');
-        }
-      }, {
         key: "loadAll",
         value: function loadAll() {
-          var _this4 = this;
+          var _this6 = this;
 
-          this.http.get(this.baseUrl).subscribe(function (data) {
-            _this4.dataStore.todos = data;
+          this.http.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].getAllCamerasEndpoint).subscribe(function (data) {
+            _this6.dataStore.cameras = data;
 
-            _this4._todos.next(Object.assign({}, _this4.dataStore).todos);
+            _this6._cameras.next(Object.assign({}, _this6.dataStore).cameras);
           }, function (error) {
-            return console.log('Could not load todos.');
+            return console.log('Could not load cameras.');
           });
         }
       }]);
@@ -1294,7 +2929,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     CameraService.ctorParameters = function () {
       return [{
-        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
+        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]
       }];
     };
 
@@ -1335,25 +2970,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var environment = {
       production: false,
-      apiUrl: 'http://localhost:8000/',
-      cameraURLWS: function cameraURLWS(id) {
-        return "ws://0.0.0.0:8000/emulation/cameras/".concat(id, "/stream");
+      getAllCamerasEndpoint: "cameras",
+      loginEndpoint: "users/login",
+      logoutEndpoint: "users/logout",
+      // apiUrl: 'http://localhost:8000/',
+      // cameraURLWS: function (id) {
+      //   return `ws://0.0.0.0:8000/emulation/cameras/${id}/stream`
+      // }
+      apiUrl: 'http://192.168.0.66:8000/',
+      cameraURLWS: function cameraURLWS(id, width, height) {
+        // return `ws://0.0.0.0:8000/emulation/cameras/${id}/stream`
+        //return `ws://192.168.0.66:8000/emulation/cameras/${id}/stream`
+        return "ws://192.168.0.66:8000/emulation/cameras/".concat(id, "/stream?width=").concat(width, "&height=").concat(height);
       }
-      /* apiUrl: 'http://192.168.0.66:8000/',
-       cameraURLWS: function (id) {
-         return `ws://192.168.0.66:8000/emulation/cameras/${id}/stream`
-       }*/
-
     };
-    /*
-     * For easier debugging in development mode, you can import the following file
-     * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
-     *
-     * This import should be commented out in production mode because it will have a negative impact
-     * on performance if an error is thrown.
-     */
-    // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
-
     /***/
   },
 
